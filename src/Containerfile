@@ -1,6 +1,6 @@
 FROM quay.io/konflux-ci/yq:latest as yq
 
-FROM quay.io/fedora/fedora:40
+FROM quay.io/fedora/fedora:42
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
