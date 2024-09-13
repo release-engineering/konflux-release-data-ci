@@ -1,6 +1,6 @@
 FROM quay.io/konflux-ci/yq:latest as yq
 
-FROM registry.access.redhat.com/ubi9:latest
+FROM quay.io/fedora/fedora:40
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
