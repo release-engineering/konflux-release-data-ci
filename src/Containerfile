@@ -4,7 +4,13 @@ FROM quay.io/fedora/fedora:40
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install tox git; dnf clean all
+RUN dnf -y install tox git ruby; dnf clean all
+
+# Because Cachi2 doesn't support ruby, we've got to gem install it for now
+# Can look into building it from source later, although without prefetch
+# not much more secure
+
+RUN gem install mdl
 
 LABEL name="konflux-release-data-ci" \
     version="0.1" \
