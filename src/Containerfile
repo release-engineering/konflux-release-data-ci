@@ -10,7 +10,9 @@ RUN dnf -y install tox git ruby; dnf clean all
 # Can look into building it from source later, although without prefetch
 # not much more secure
 
-RUN gem install mdl
+# Currently doing the gem install is breaking syft
+# Possible occurence of https://github.com/anchore/syft/issues/3194
+# RUN gem install mdl
 
 LABEL name="konflux-release-data-ci" \
     version="0.1" \
