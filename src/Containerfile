@@ -4,7 +4,12 @@ FROM quay.io/fedora/fedora:40
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install tox git ruby; dnf clean all
+RUN dnf -y install tox git ruby gcc; dnf clean all
+
+COPY requirements.txt requirements-build.txt ./
+
+RUN pip install -r requirements-build.txt -r requirements.txt
+
 
 # Because Cachi2 doesn't support ruby, we've got to gem install it for now
 # Can look into building it from source later, although without prefetch
@@ -15,7 +20,7 @@ RUN dnf -y install tox git ruby; dnf clean all
 # RUN gem install mdl
 
 LABEL name="konflux-release-data-ci" \
-    version="0.1" \
+    version="0.2" \
     release="1" \
     summary="Container image for running gitlab ci tasks for konflux-release-data config repo" \
     com.redhat.component="konflux-release-data-ci" \
