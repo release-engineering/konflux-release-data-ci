@@ -8,7 +8,7 @@ RUN dnf -y install tox git ruby; dnf clean all
 
 COPY requirements.txt requirements-build.txt ./
 
-RUN pip install -r requirements.txt
+RUN pip install -r requirements-build.txt -r requirements.txt
 
 
 # Because Cachi2 doesn't support ruby, we've got to gem install it for now
