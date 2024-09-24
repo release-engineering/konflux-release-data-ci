@@ -4,7 +4,7 @@ FROM quay.io/fedora/fedora:40
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install tox git ruby; dnf clean all
+RUN dnf -y install tox git ruby gcc; dnf clean all
 
 COPY requirements.txt requirements-build.txt ./
 
