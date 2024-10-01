@@ -1,0 +1,1611 @@
+---
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+- arch: x86_64
+  packages:
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/a/abattis-cantarell-vf-fonts-0.301-12.fc40.noarch.rpm
+    repoid: fedora
+    size: 123217
+    checksum: sha256:97b60b65a92b1e98462e194a54e863eb4ed6a44361a53d5c940d43c8fe889977
+    name: abattis-cantarell-vf-fonts
+    evr: 0.301-12.fc40
+    sourcerpm: abattis-cantarell-fonts-0.301-12.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/a/ansible-srpm-macros-1-14.fc40.noarch.rpm
+    repoid: fedora
+    size: 21337
+    checksum: sha256:8aebfbccce1d431b1fbf5b663695c90ee9cbf905db3529d38a699fe1c1ec8531
+    name: ansible-srpm-macros
+    evr: 1-14.fc40
+    sourcerpm: ansible-packaging-1-14.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/c/cairo-1.18.0-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 725963
+    checksum: sha256:e5b5a95d76ee9b7691e0077a0fc3dbc6f4ab395452f69842eead74d793c9e174
+    name: cairo
+    evr: 1.18.0-3.fc40
+    sourcerpm: cairo-1.18.0-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/d/dwz-0.15-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 141132
+    checksum: sha256:c801f65c70a3ae8d5ddbc8d82fe6f78398ea29c7bab40612a4ddddd93c398aeb
+    name: dwz
+    evr: 0.15-6.fc40
+    sourcerpm: dwz-0.15-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/e/efi-srpm-macros-5-11.fc40.noarch.rpm
+    repoid: fedora
+    size: 22834
+    checksum: sha256:34ed8bd59f9b299975871ebce1d15208cd66a4383f46a4f0d75e01303bacac2c
+    name: efi-srpm-macros
+    evr: 5-11.fc40
+    sourcerpm: efi-rpm-macros-5-11.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/e/elfutils-debuginfod-client-0.191-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 39390
+    checksum: sha256:877c66844c68044b2a29b5d7465eb97f429e9f38b56ebaa16d766c0979e93a80
+    name: elfutils-debuginfod-client
+    evr: 0.191-4.fc40
+    sourcerpm: elfutils-0.191-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/file-5.45-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 50146
+    checksum: sha256:a6f2098fc2ed16df92c9325bd7459cc41479e17306a4f9cddfd5df8a1b80d0f8
+    name: file
+    evr: 5.45-4.fc40
+    sourcerpm: file-5.45-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/fonts-filesystem-2.0.5-14.fc40.noarch.rpm
+    repoid: fedora
+    size: 8350
+    checksum: sha256:380d03f1c209bdfb39052cf8b4d762c3001f0ec42ee8fabd1875669fede03bd1
+    name: fonts-filesystem
+    evr: 1:2.0.5-14.fc40
+    sourcerpm: fonts-rpm-macros-2.0.5-14.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/fonts-srpm-macros-2.0.5-14.fc40.noarch.rpm
+    repoid: fedora
+    size: 27157
+    checksum: sha256:ebf245973cea76d51b22de0e587fc77b3d6a776fb629c4130971182536afd9d7
+    name: fonts-srpm-macros
+    evr: 1:2.0.5-14.fc40
+    sourcerpm: fonts-rpm-macros-2.0.5-14.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/fpc-srpm-macros-1.3-12.fc40.noarch.rpm
+    repoid: fedora
+    size: 8021
+    checksum: sha256:7df65ab4ab462818320c8391aa8b08e63fddba2c60944e40f0b207118effbae5
+    name: fpc-srpm-macros
+    evr: 1.3-12.fc40
+    sourcerpm: fpc-srpm-macros-1.3-12.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/freetype-2.13.2-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 419542
+    checksum: sha256:310204e9ca4ae00fead52aef3a8afe477509012bd9117a5cf57e73c51c6f5f74
+    name: freetype
+    evr: 2.13.2-5.fc40
+    sourcerpm: freetype-2.13.2-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/gc-8.2.2-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 112880
+    checksum: sha256:641494edfcaad3ca02445dafa37b652efa7c188f40e09d50445a4b5d6d7965df
+    name: gc
+    evr: 8.2.2-6.fc40
+    sourcerpm: gc-8.2.2-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/ghc-srpm-macros-1.9-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 8959
+    checksum: sha256:1e1a8a56a0186d9c31b74bb1d0008cefa98dd724d9edb053581b8448259f2ec1
+    name: ghc-srpm-macros
+    evr: 1.9-1.fc40
+    sourcerpm: ghc-srpm-macros-1.9-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/gnat-srpm-macros-6-5.fc40.noarch.rpm
+    repoid: fedora
+    size: 9035
+    checksum: sha256:35f84a6494aed02d6a2b90f702787232962535c313ab56b3878b264a6c39546c
+    name: gnat-srpm-macros
+    evr: 6-5.fc40
+    sourcerpm: gnat-srpm-macros-6-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/go-srpm-macros-3.5.0-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 28209
+    checksum: sha256:2968803f0da871cb5b5873efab1360871260c915338f72f11486a1210aafd105
+    name: go-srpm-macros
+    evr: 3.5.0-1.fc40
+    sourcerpm: go-rpm-macros-3.5.0-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/google-noto-fonts-common-20240301-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 17671
+    checksum: sha256:cb8e8d944191a878189ea4dcc57466ab369691559bb72c1f1fd667709fe72671
+    name: google-noto-fonts-common
+    evr: 20240301-2.fc40
+    sourcerpm: google-noto-fonts-20240301-2.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/google-noto-sans-vf-fonts-20240301-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 607498
+    checksum: sha256:d9eac2f06863dc9f0cd9cd376f7fd8725ac7b87f061b2442d12c1f0d45a70e42
+    name: google-noto-sans-vf-fonts
+    evr: 20240301-2.fc40
+    sourcerpm: google-noto-fonts-20240301-2.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/graphite2-1.3.14-15.fc40.x86_64.rpm
+    repoid: fedora
+    size: 97123
+    checksum: sha256:6ce6fae03da2c847e0a82d846f1a917fda6ff098904779ccad8ae4c8ec651422
+    name: graphite2
+    evr: 1.3.14-15.fc40
+    sourcerpm: graphite2-1.3.14-15.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/groff-base-1.23.0-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1151638
+    checksum: sha256:30f12d19cb6077b8d0d644e59a94cc0163722e26b8771f9eb14a3edb0e9df25d
+    name: groff-base
+    evr: 1.23.0-6.fc40
+    sourcerpm: groff-1.23.0-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/guile30-3.0.7-12.fc40.x86_64.rpm
+    repoid: fedora
+    size: 8544678
+    checksum: sha256:322aa327b35cbd6cd85265bc282505d297e7cc8e7d70dd856705dad805c50af8
+    name: guile30
+    evr: 3.0.7-12.fc40
+    sourcerpm: guile30-3.0.7-12.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/j/jansson-2.13.1-9.fc40.x86_64.rpm
+    repoid: fedora
+    size: 45239
+    checksum: sha256:9b4f2730a62955650c1e260e1b573f089355faf0155871e2c10381316a3b2e55
+    name: jansson
+    evr: 2.13.1-9.fc40
+    sourcerpm: jansson-2.13.1-9.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/k/kernel-srpm-macros-1.0-23.fc40.noarch.rpm
+    repoid: fedora
+    size: 9962
+    checksum: sha256:95fb5031a23336455d606d05c63855c7f12247ffd4baaac64fb576b420b2a32e
+    name: kernel-srpm-macros
+    evr: 1.0-23.fc40
+    sourcerpm: kernel-srpm-macros-1.0-23.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXau-1.0.11-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 32461
+    checksum: sha256:58f87b69e579e335df2ba6cf8b6cf55c33d80c6d3bc3b5a79af98bd407cf9dc7
+    name: libXau
+    evr: 1.0.11-6.fc40
+    sourcerpm: libXau-1.0.11-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXext-1.3.6-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 39840
+    checksum: sha256:2bd52de41cf96c9bf1d3c885d870e8700d0fe460eecb510bbd55bec5dfa9451c
+    name: libXext
+    evr: 1.3.6-1.fc40
+    sourcerpm: libXext-1.3.6-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXft-2.3.8-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 73847
+    checksum: sha256:058d52964805fffa79786a99ccd6b7d39f3a7f1cd97d065ca83e9d8ae03801aa
+    name: libXft
+    evr: 2.3.8-6.fc40
+    sourcerpm: libXft-2.3.8-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXrender-0.9.11-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 28008
+    checksum: sha256:fe756b223c6297bd94cd97aa4c7a5b87a08e86f80a2cfe697b428c7d20bfa5f6
+    name: libXrender
+    evr: 0.9.11-6.fc40
+    sourcerpm: libXrender-0.9.11-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libcbor-0.11.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 34053
+    checksum: sha256:274fd72d27570f3fcc9f06efedd21ea7a71e0903c286222fdbbefd6b30b9a80c
+    name: libcbor
+    evr: 0.11.0-1.fc40
+    sourcerpm: libcbor-0.11.0-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libfido2-1.14.0-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 99956
+    checksum: sha256:f9c5369b6d168a2b8e46159bc41ef0755ee1a8d12f4c6766fdfe23e827cf5cdf
+    name: libfido2
+    evr: 1.14.0-4.fc40
+    sourcerpm: libfido2-1.14.0-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libmpc-1.3.1-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 72844
+    checksum: sha256:b749c245ecd4d9457a94e2eedbe7196837566bb13b94d0827b45b5135286f6f4
+    name: libmpc
+    evr: 1.3.1-5.fc40
+    sourcerpm: libmpc-1.3.1-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libpng-1.6.40-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 122793
+    checksum: sha256:f115b64206304002c658f83c829623aa966e0d99f24de5d60c79a19142803ecb
+    name: libpng
+    evr: 2:1.6.40-3.fc40
+    sourcerpm: libpng-1.6.40-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libutempter-1.2.1-13.fc40.x86_64.rpm
+    repoid: fedora
+    size: 27038
+    checksum: sha256:0093a8d3f490fbbbc71b01e0c8f9b083040dbf7513be31a91a0769d846198c1b
+    name: libutempter
+    evr: 1.2.1-13.fc40
+    sourcerpm: libutempter-1.2.1-13.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libxcrypt-devel-4.4.36-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 29323
+    checksum: sha256:0b384c64ba6bf1c067f6b389181c31088472b9a2bc21ef856953558ae19f8ad5
+    name: libxcrypt-devel
+    evr: 4.4.36-5.fc40
+    sourcerpm: libxcrypt-4.4.36-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/lua-srpm-macros-1-13.fc40.noarch.rpm
+    repoid: fedora
+    size: 8940
+    checksum: sha256:959030121201a706bc620d311569f15ab81bafdb9e3de94bf763a72df36d15f0
+    name: lua-srpm-macros
+    evr: 1-13.fc40
+    sourcerpm: lua-rpm-macros-1-13.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/m/make-4.4.1-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 601729
+    checksum: sha256:a4d2818bc705b4d474552f2461c05740449c9da8e4e9f32c4e4e8eaa6cca2b33
+    name: make
+    evr: 1:4.4.1-6.fc40
+    sourcerpm: make-4.4.1-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/n/ncurses-6.4-12.20240127.fc40.x86_64.rpm
+    repoid: fedora
+    size: 431332
+    checksum: sha256:f1b6c955652d4d16d267edfae6bc875d73efd2591ac9d476c480ee9d1e4ee42c
+    name: ncurses
+    evr: 6.4-12.20240127.fc40
+    sourcerpm: ncurses-6.4-12.20240127.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/o/ocaml-srpm-macros-9-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 9291
+    checksum: sha256:2d35dbd16fb7c9b306792eddea13d5c863a94ce1b9b9e0c8850cf3c571d56b48
+    name: ocaml-srpm-macros
+    evr: 9-3.fc40
+    sourcerpm: ocaml-srpm-macros-9-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/o/openblas-srpm-macros-2-16.fc40.noarch.rpm
+    repoid: fedora
+    size: 7680
+    checksum: sha256:46ee44ca72fab8e04a7d8c379a550466e7ded1c5a714d14764572fc78b1b5cc5
+    name: openblas-srpm-macros
+    evr: 2-16.fc40
+    sourcerpm: openblas-srpm-macros-2-16.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/package-notes-srpm-macros-0.5-11.fc40.noarch.rpm
+    repoid: fedora
+    size: 10183
+    checksum: sha256:fb4d7c9f138a9ca7cc6fcb68b0820a99a4d67ee22041b64223430f70cee0240a
+    name: package-notes-srpm-macros
+    evr: 0.5-11.fc40
+    sourcerpm: package-notes-0.5-11.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-AutoLoader-5.74-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 22194
+    checksum: sha256:e801f69aa7745987f84f0ad8efa626bd3aea5fb29dc277ed6a5ab157de8878cb
+    name: perl-AutoLoader
+    evr: 5.74-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-B-1.88-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 180575
+    checksum: sha256:38771652f69722bfeb1df019e3204f40f242f93599632564a72286c7a7dedb41
+    name: perl-B
+    evr: 1.88-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Carp-1.54-502.fc40.noarch.rpm
+    repoid: fedora
+    size: 29381
+    checksum: sha256:a65dd82703e0c5847733f52fcef81d82528381edbc84bf665a7bf53732e7b126
+    name: perl-Carp
+    evr: 1.54-502.fc40
+    sourcerpm: perl-Carp-1.54-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Class-Struct-0.68-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 23051
+    checksum: sha256:50c21b40deb69eb7e726f7d9c68e27af906e1eda028559d6e16364ded3625a16
+    name: perl-Class-Struct
+    evr: 0.68-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Data-Dumper-2.188-503.fc40.x86_64.rpm
+    repoid: fedora
+    size: 57366
+    checksum: sha256:7aa596dde17ad70508e7e0e75c154973290a14d1fb56057aa6f580907e837555
+    name: perl-Data-Dumper
+    evr: 2.188-503.fc40
+    sourcerpm: perl-Data-Dumper-2.188-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Digest-1.20-502.fc40.noarch.rpm
+    repoid: fedora
+    size: 25240
+    checksum: sha256:7a3227717f0121273607249d64ea56953f0a1d68eb37e690e8c5f85851e2467a
+    name: perl-Digest
+    evr: 1.20-502.fc40
+    sourcerpm: perl-Digest-1.20-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Digest-MD5-2.59-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 36644
+    checksum: sha256:af36bb36832421d2092678612d893d27a58f678500ece3a9d268aad43326be59
+    name: perl-Digest-MD5
+    evr: 2.59-3.fc40
+    sourcerpm: perl-Digest-MD5-2.59-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-DynaLoader-1.54-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 27093
+    checksum: sha256:d38041cf63f98515ade9e0af650b4564dc479f0188686a4abc4a2cd533b2c360
+    name: perl-DynaLoader
+    evr: 1.54-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Encode-3.21-505.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1108223
+    checksum: sha256:d0abddb488efa8dc53b1d7c24a9cad49ac9160d6a8180c500884a65ff8cce2a8
+    name: perl-Encode
+    evr: 4:3.21-505.fc40
+    sourcerpm: perl-Encode-3.21-505.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Errno-1.37-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 15735
+    checksum: sha256:37b9ad9c6aef1169ff9cba209df8351408abe01b05ef2262f091dc210351ce17
+    name: perl-Errno
+    evr: 1.37-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Error-0.17029-15.fc40.noarch.rpm
+    repoid: fedora
+    size: 41357
+    checksum: sha256:80b7b37ae96407dbeab23e97dbd69d47ee75a4f8f42f6c25ef2034b40b8dc9b0
+    name: perl-Error
+    evr: 1:0.17029-15.fc40
+    sourcerpm: perl-Error-0.17029-15.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Exporter-5.78-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 31514
+    checksum: sha256:8647c554687dbe5dbe010fbc826e897d4cc9a8c691c942e4633195645858ad10
+    name: perl-Exporter
+    evr: 5.78-3.fc40
+    sourcerpm: perl-Exporter-5.78-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Fcntl-1.15-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 21094
+    checksum: sha256:18f5fdba18cd6e222b85613d2288867e9da41c6bbd3608e7e9f830caba246ea0
+    name: perl-Fcntl
+    evr: 1.15-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-File-Basename-2.86-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 18034
+    checksum: sha256:57164886c006d71b81f930735730ba1bbe56354558596cc582bdebb269d9f2d3
+    name: perl-File-Basename
+    evr: 2.86-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-File-Find-1.43-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 26366
+    checksum: sha256:93c539bd75e3fa4a5656c9e341ab82dea1c43b306ef45ff26ae4c599633dbe14
+    name: perl-File-Find
+    evr: 1.43-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-File-Path-2.18-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 35870
+    checksum: sha256:8b152cd78a7f56136fd4d2f3b56111a8e5c4ab8192e50069a38df3eb90cdeba8
+    name: perl-File-Path
+    evr: 2.18-503.fc40
+    sourcerpm: perl-File-Path-2.18-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-File-Temp-0.231.100-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 60397
+    checksum: sha256:a686fe5e5e94ef9876b429099cd2bc85069a83148ea26b17970443a757822fa4
+    name: perl-File-Temp
+    evr: 1:0.231.100-503.fc40
+    sourcerpm: perl-File-Temp-0.231.100-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-File-stat-1.13-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 18035
+    checksum: sha256:0149f36e83814763c7937eddbecbc53a15959f3a69f2eaed6b380b07366698f5
+    name: perl-File-stat
+    evr: 1.13-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-FileHandle-2.05-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 16323
+    checksum: sha256:8579aa3d0f1827c98678007e84a2ade496275f42884be0cc9f999c2de31a533b
+    name: perl-FileHandle
+    evr: 2.05-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Getopt-Std-1.13-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 16477
+    checksum: sha256:4e46c286d79b208e6111ceae585d2d00b835c913686bd1cfd608f8e225e41a40
+    name: perl-Getopt-Std
+    evr: 1.13-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-HTTP-Tiny-0.088-5.fc40.noarch.rpm
+    repoid: fedora
+    size: 56897
+    checksum: sha256:d0a5c3099349032e4527c11737c9f54ad7427685b563f10be9e6006b2acee36d
+    name: perl-HTTP-Tiny
+    evr: 0.088-5.fc40
+    sourcerpm: perl-HTTP-Tiny-0.088-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-IO-1.52-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 84704
+    checksum: sha256:f154c1c6952d8c2c1340ef1037d6b3da61b1e8468cf9f20d9b5ddebd796c1da6
+    name: perl-IO
+    evr: 1.52-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-IO-Socket-IP-0.42-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 42692
+    checksum: sha256:30aa2fa573d6772840ec30431d3e92c78d90442e5349dc9bab14f70816e84ecb
+    name: perl-IO-Socket-IP
+    evr: 0.42-2.fc40
+    sourcerpm: perl-IO-Socket-IP-0.42-2.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-IO-Socket-SSL-2.085-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 234131
+    checksum: sha256:660515f32e0985d3ad5d5b58426d77ed07eca255cd30954469dffc6de8516d0e
+    name: perl-IO-Socket-SSL
+    evr: 2.085-1.fc40
+    sourcerpm: perl-IO-Socket-SSL-2.085-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-IPC-Open3-1.22-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 22835
+    checksum: sha256:c50d0a81b90d11648ea010d72fcb924cd910d9b9c247021c152e1f7ee5ee4e46
+    name: perl-IPC-Open3
+    evr: 1.22-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-MIME-Base64-3.16-503.fc40.x86_64.rpm
+    repoid: fedora
+    size: 30379
+    checksum: sha256:46d39e3f41e3fef98bc85c1bc5237555f21d23453833d7e57341ed3e324a82bf
+    name: perl-MIME-Base64
+    evr: 3.16-503.fc40
+    sourcerpm: perl-MIME-Base64-3.16-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Mozilla-CA-20231213-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 14188
+    checksum: sha256:a53e9503a79437c7585c8f82d2047ad0eb5f53b3a92edfbd218f620d7dd47c98
+    name: perl-Mozilla-CA
+    evr: 20231213-3.fc40
+    sourcerpm: perl-Mozilla-CA-20231213-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-NDBM_File-1.16-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 23747
+    checksum: sha256:49656c4a9bdb4daa20e477465e42a368f10a9a2d625df3cea0163c1971e42454
+    name: perl-NDBM_File
+    evr: 1.16-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Net-SSLeay-1.94-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 394188
+    checksum: sha256:2aba01c37064d99f5c0b7110c418a8f374ffb7c6a6ce142239ed9b7ef429567a
+    name: perl-Net-SSLeay
+    evr: 1.94-3.fc40
+    sourcerpm: perl-Net-SSLeay-1.94-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-POSIX-2.13-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 99237
+    checksum: sha256:1225b8dd6ad6ac49a8c749797cfc8d376dc92c895a90a2566124de03e188ed66
+    name: perl-POSIX
+    evr: 2.13-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-PathTools-3.89-502.fc40.x86_64.rpm
+    repoid: fedora
+    size: 89533
+    checksum: sha256:c7790504f73cc2c3227827c1a3a34c018b50dbac0621c7dfcba0c29c64ef15de
+    name: perl-PathTools
+    evr: 3.89-502.fc40
+    sourcerpm: perl-PathTools-3.89-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Pod-Escapes-1.07-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 20097
+    checksum: sha256:1f96f3aff486ab917ba871eb4875e4f201ae5731b9ec2bd974f11257861fad5c
+    name: perl-Pod-Escapes
+    evr: 1:1.07-503.fc40
+    sourcerpm: perl-Pod-Escapes-1.07-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Pod-Perldoc-3.28.01-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 87640
+    checksum: sha256:6df25726589106437cf557eae67f3b993e5ff40dad2eeb9150dfc2b23115e6e1
+    name: perl-Pod-Perldoc
+    evr: 3.28.01-503.fc40
+    sourcerpm: perl-Pod-Perldoc-3.28.01-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Pod-Simple-3.45-6.fc40.noarch.rpm
+    repoid: fedora
+    size: 223793
+    checksum: sha256:412128c45e763ea21250bae59964120a11f5e29e55e18b3d1f93ab64ab160f6b
+    name: perl-Pod-Simple
+    evr: 1:3.45-6.fc40
+    sourcerpm: perl-Pod-Simple-3.45-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Scalar-List-Utils-1.63-503.fc40.x86_64.rpm
+    repoid: fedora
+    size: 74653
+    checksum: sha256:9ee3e9fb07acc37ad1aa6ef135ed245622c02118d6c48d5a725f84dd3845e021
+    name: perl-Scalar-List-Utils
+    evr: 5:1.63-503.fc40
+    sourcerpm: perl-Scalar-List-Utils-1.63-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-SelectSaver-1.02-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 12456
+    checksum: sha256:6a45769f7520bc5ef502bdbc2287e1998cc9ca7cd195c845a7c552a2a9b3a650
+    name: perl-SelectSaver
+    evr: 1.02-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Storable-3.32-502.fc40.x86_64.rpm
+    repoid: fedora
+    size: 100558
+    checksum: sha256:d24094afb476a294b29521ffc39dd73607f17be571157a9abfe6a966fe9dbc9f
+    name: perl-Storable
+    evr: 1:3.32-502.fc40
+    sourcerpm: perl-Storable-3.32-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Symbol-1.09-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 14997
+    checksum: sha256:31541521adffee5c73c30bdafdda4f380cd9c08421336f30c3036c71160674da
+    name: perl-Symbol
+    evr: 1.09-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Term-ANSIColor-5.01-504.fc40.noarch.rpm
+    repoid: fedora
+    size: 48696
+    checksum: sha256:79dcb1cb584cdb7bbb7c022b63f4b48e14d59c510825c258caca4b126da2ce53
+    name: perl-Term-ANSIColor
+    evr: 5.01-504.fc40
+    sourcerpm: perl-Term-ANSIColor-5.01-504.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Term-Cap-1.18-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 22455
+    checksum: sha256:b6e98d6c3bc2b72a1b5218d6000cbb5ce9787fbdf852cabc742c3e6e3d1f015b
+    name: perl-Term-Cap
+    evr: 1.18-503.fc40
+    sourcerpm: perl-Term-Cap-1.18-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-TermReadKey-2.38-21.fc40.x86_64.rpm
+    repoid: fedora
+    size: 36186
+    checksum: sha256:61340a1c4320552ea92b724b4359a24a7841a3c9e5e771e5c4bb0fc7277e432b
+    name: perl-TermReadKey
+    evr: 2.38-21.fc40
+    sourcerpm: perl-TermReadKey-2.38-21.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Text-ParseWords-3.31-502.fc40.noarch.rpm
+    repoid: fedora
+    size: 16681
+    checksum: sha256:6911b5d1d519ba25c008d9da7631e7d4e60e7902bbe3bafb35924c440a47080f
+    name: perl-Text-ParseWords
+    evr: 3.31-502.fc40
+    sourcerpm: perl-Text-ParseWords-3.31-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Text-Tabs+Wrap-2024.001-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 22096
+    checksum: sha256:9ca255e239f747f40094f3ba0c81079f009a24a244706128f6bfc077f5d3e97d
+    name: perl-Text-Tabs+Wrap
+    evr: 2024.001-1.fc40
+    sourcerpm: perl-Text-Tabs+Wrap-2024.001-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-Time-Local-1.350-5.fc40.noarch.rpm
+    repoid: fedora
+    size: 35139
+    checksum: sha256:c6cbd7eef0215eceb66866ebc57d8311d220be04857c54ff478dd320f2be146a
+    name: perl-Time-Local
+    evr: 2:1.350-5.fc40
+    sourcerpm: perl-Time-Local-1.350-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-base-2.27-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 17049
+    checksum: sha256:a1325c1dc9d7379bb2b786371a7bbdc2c0d217ae73da040960c05279bd46c1ef
+    name: perl-base
+    evr: 2.27-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-constant-1.33-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 23360
+    checksum: sha256:938e497758f54c450e743427cf97e7b4a57399efdf665cbeb35d9a80c7633632
+    name: perl-constant
+    evr: 1.33-503.fc40
+    sourcerpm: perl-constant-1.33-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-if-0.61.000-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 14784
+    checksum: sha256:8861b716151717d5545b97cf3c8f7bb6fab5563c97a939e35b1be98553e193d8
+    name: perl-if
+    evr: 0.61.000-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-interpreter-5.38.2-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 73990
+    checksum: sha256:6a56f5f4f92bff453aca680e3c7791ece6ea5bef689d5db1309f2da157ffc8e8
+    name: perl-interpreter
+    evr: 4:5.38.2-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-lib-0.65-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 15729
+    checksum: sha256:ea3d2f694287cb3d6dfd7c5253524493a26bc1482fd53cc57462c69c72146521
+    name: perl-lib
+    evr: 0.65-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-libnet-3.15-503.fc40.noarch.rpm
+    repoid: fedora
+    size: 131592
+    checksum: sha256:a70dcd9f231e55757dce04f454e4cb0109edd3be7a91ab01ac34c43e65398160
+    name: perl-libnet
+    evr: 3.15-503.fc40
+    sourcerpm: perl-libnet-3.15-503.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-libs-5.38.2-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 2452249
+    checksum: sha256:5e35bfda17c1a3e8bd1105dc1e77ff207e739b5c9a52990dec63ce420b3e1bda
+    name: perl-libs
+    evr: 4:5.38.2-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-locale-1.10-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 14444
+    checksum: sha256:9113463465c28d02db79ea499f3cfb4a1e508666ca99c776b2068a964c704c49
+    name: perl-locale
+    evr: 1.10-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-mro-1.28-506.fc40.x86_64.rpm
+    repoid: fedora
+    size: 30026
+    checksum: sha256:08de804c0fe01f433a3c786796fbf84f5ee15a462783271a80b276f384d3d574
+    name: perl-mro
+    evr: 1.28-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-overload-1.37-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 47090
+    checksum: sha256:32659c3ebd0c02df994c7162e929611cdde63180cc3ab7a8c77d3656389f3157
+    name: perl-overload
+    evr: 1.37-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-overloading-0.02-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 13670
+    checksum: sha256:97c29dfb29715c6dd3b45d0b5c3d6cd14da1a041b20540db7a4b01f41b6d6ffd
+    name: perl-overloading
+    evr: 0.02-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-parent-0.241-502.fc40.noarch.rpm
+    repoid: fedora
+    size: 15061
+    checksum: sha256:43701d6fd82fd42e15823efe40ae1304373e4d17da266ba639b4e9dfb78ba5b4
+    name: perl-parent
+    evr: 1:0.241-502.fc40
+    sourcerpm: perl-parent-0.241-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-podlators-5.01-502.fc40.noarch.rpm
+    repoid: fedora
+    size: 128514
+    checksum: sha256:b3d9b83fa34d7b5b448dedaf535027b102c620feaead777af09c46727b0986c3
+    name: perl-podlators
+    evr: 1:5.01-502.fc40
+    sourcerpm: perl-podlators-5.01-502.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-srpm-macros-1-53.fc40.noarch.rpm
+    repoid: fedora
+    size: 8583
+    checksum: sha256:076aab9e67fd58346b9c8ac369aaef8d52b1aeff4d2d21c9550931e03c6fee26
+    name: perl-srpm-macros
+    evr: 1-53.fc40
+    sourcerpm: perl-srpm-macros-1-53.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/perl-vars-1.05-506.fc40.noarch.rpm
+    repoid: fedora
+    size: 13758
+    checksum: sha256:1c849b40e23b094c8c7d15b26f2e0839e1c1889f0f5892112616bb71a34c9099
+    name: perl-vars
+    evr: 1.05-506.fc40
+    sourcerpm: perl-5.38.2-506.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/pypy3.10-7.3.15-2.3.10.fc40.x86_64.rpm
+    repoid: fedora
+    size: 13491
+    checksum: sha256:ed6b92bc3f2671c3fa60e8a2d15dcbe1c8c8c7811fbd98dfc7fe3e7b8ce49f9c
+    name: pypy3.10
+    evr: 7.3.15-2.3.10.fc40
+    sourcerpm: pypy3.10-7.3.15-2.3.10.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/pypy3.10-devel-7.3.15-2.3.10.fc40.x86_64.rpm
+    repoid: fedora
+    size: 213992
+    checksum: sha256:64c60317aa1a28b6a9821289ca8be0d2830b8e92916b681e8e6a3a1bb2389325
+    name: pypy3.10-devel
+    evr: 7.3.15-2.3.10.fc40
+    sourcerpm: pypy3.10-7.3.15-2.3.10.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/pypy3.10-libs-7.3.15-2.3.10.fc40.x86_64.rpm
+    repoid: fedora
+    size: 19514634
+    checksum: sha256:fcb168234b99ed588bee48309b8036e03832ae393b771b66322f21ef278ebe0c
+    name: pypy3.10-libs
+    evr: 7.3.15-2.3.10.fc40
+    sourcerpm: pypy3.10-7.3.15-2.3.10.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python-wheel-wheel-0.41.2-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 71549
+    checksum: sha256:9bd0b8176c7c4c7e49042dccd7cee05c9a070aa7932fbfc865915b892a924260
+    name: python-wheel-wheel
+    evr: 1:0.41.2-3.fc40
+    sourcerpm: python-wheel-0.41.2-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python-wheel0.37-wheel-0.37.1-6.fc40.noarch.rpm
+    repoid: fedora
+    size: 42795
+    checksum: sha256:af78cf112d9f3a241a44c0b0db9cf9e82c62d89fa7fc489de47ab952979b1fa7
+    name: python-wheel0.37-wheel
+    evr: 0.37.1-6.fc40
+    sourcerpm: python-wheel0.37-0.37.1-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-aiodns-3.0.0-10.fc40.noarch.rpm
+    repoid: fedora
+    size: 19067
+    checksum: sha256:37c72e80e5c213d1626694fe658d4d15dcb90f9736d66315fefbd7320ea0cc4c
+    name: python3-aiodns
+    evr: 3.0.0-10.fc40
+    sourcerpm: python-aiodns-3.0.0-10.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-aiosignal-1.3.1-13.fc40.noarch.rpm
+    repoid: fedora
+    size: 17575
+    checksum: sha256:75df8184bb543e61967b57acf15d81e3dcc7ef26eaec343a0abc308de43448a6
+    name: python3-aiosignal
+    evr: 1.3.1-13.fc40
+    sourcerpm: python-aiosignal-1.3.1-13.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-attrs-23.2.0-4.fc40.noarch.rpm
+    repoid: fedora
+    size: 126910
+    checksum: sha256:3610b2c78cdbda78960ec2000fd2edfeaf24bea2ba4f4ae2911d26d4d9d02502
+    name: python3-attrs
+    evr: 23.2.0-4.fc40
+    sourcerpm: python-attrs-23.2.0-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-brotli-1.1.0-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 347571
+    checksum: sha256:8c17bc2aa67333b423a12f9ec2bee182ad6649a724cae51b09d706311fd77056
+    name: python3-brotli
+    evr: 1.1.0-3.fc40
+    sourcerpm: brotli-1.1.0-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-cachetools-5.3.2-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 38016
+    checksum: sha256:f47a6239c98ca423d0ab8a22c8250ec215877c13884269edf56eee9d41c22dcd
+    name: python3-cachetools
+    evr: 5.3.2-3.fc40
+    sourcerpm: python-cachetools-5.3.2-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-cffi-1.16.0-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 313631
+    checksum: sha256:c0b1a7b1c5248b60aca192c10899ea6097afab0058f951d7ff463117693dd162
+    name: python3-cffi
+    evr: 1.16.0-4.fc40
+    sourcerpm: python-cffi-1.16.0-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-chardet-5.2.0-4.fc40.noarch.rpm
+    repoid: fedora
+    size: 306165
+    checksum: sha256:14b3dc5a4451ee0de4d3dd3041526e90b11d3efbaddc6c612c9b95ff9a1698d1
+    name: python3-chardet
+    evr: 5.2.0-4.fc40
+    sourcerpm: python-chardet-5.2.0-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-click-8.1.7-4.fc40.noarch.rpm
+    repoid: fedora
+    size: 241404
+    checksum: sha256:f8edc61f654ca391193cfbf31fcfdd95946d83030f7a2d7b92d27d0c5b713384
+    name: python3-click
+    evr: 8.1.7-4.fc40
+    sourcerpm: python-click-8.1.7-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-colorama-0.4.6-7.fc40.noarch.rpm
+    repoid: fedora
+    size: 73017
+    checksum: sha256:5ed850f1cd3e0780cadf1e7855bba4cd85cc19e330805d8d17866f723a0f999c
+    name: python3-colorama
+    evr: 0.4.6-7.fc40
+    sourcerpm: python-colorama-0.4.6-7.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-distlib-0.3.7-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 268947
+    checksum: sha256:8c6dccdc85c5638d8da3a6adfd12e88c17ffede1ff116409afb6d67537f838f5
+    name: python3-distlib
+    evr: 0.3.7-3.fc40
+    sourcerpm: python-distlib-0.3.7-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-filelock-3.13.1-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 37076
+    checksum: sha256:d531521b679b5adf763eb438d518dac7eb29187ba75c63f645629fe51654a621
+    name: python3-filelock
+    evr: 3.13.1-1.fc40
+    sourcerpm: python-filelock-3.13.1-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-flake8-6.0.0-4.fc40.noarch.rpm
+    repoid: fedora
+    size: 149458
+    checksum: sha256:6e02a67bb54014b43afd910e8824a0db32277516857091fa7728bcf5e692dcc7
+    name: python3-flake8
+    evr: 6.0.0-4.fc40
+    sourcerpm: python-flake8-6.0.0-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-frozenlist-1.4.1-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 64139
+    checksum: sha256:58e5b50227acd30c70e28b85f7b478b2de1c5be82994d887e3a711c6df1588cf
+    name: python3-frozenlist
+    evr: 1.4.1-3.fc40
+    sourcerpm: python-frozenlist-1.4.1-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-isort-5.13.2-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 247258
+    checksum: sha256:2bc03b5dc44bc61753f36d0b38ed5bdd8d4d02dcd92d9a5665f7ce7a78f383ee
+    name: python3-isort
+    evr: 5.13.2-3.fc40
+    sourcerpm: python-isort-5.13.2-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-mccabe-0.7.0-8.fc40.noarch.rpm
+    repoid: fedora
+    size: 22992
+    checksum: sha256:28012d18e033c81f8f9832c04e92e2b82c48ca735d42743b092bbfc081ee1a89
+    name: python3-mccabe
+    evr: 0.7.0-8.fc40
+    sourcerpm: python-mccabe-0.7.0-8.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-mypy_extensions-1.0.0-6.fc40.noarch.rpm
+    repoid: fedora
+    size: 16710
+    checksum: sha256:f14c283585c0738908bb801e5ac5adfcec5bbd397951911bc298586258d00dd0
+    name: python3-mypy_extensions
+    evr: 1.0.0-6.fc40
+    sourcerpm: python-mypy_extensions-1.0.0-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-packaging-23.2-4.fc40.noarch.rpm
+    repoid: fedora
+    size: 128254
+    checksum: sha256:0097a771a65d2014a1d03872fed7feab5340673339e6f15b852a0d0c71764319
+    name: python3-packaging
+    evr: 23.2-4.fc40
+    sourcerpm: python-packaging-23.2-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pathspec-0.12.1-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 62683
+    checksum: sha256:dce68ea9603b42f874382b85391681568c5c7ec6e74c12c59b45f1e666944921
+    name: python3-pathspec
+    evr: 0.12.1-3.fc40
+    sourcerpm: python-pathspec-0.12.1-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pip-23.3.2-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 3307067
+    checksum: sha256:fb066117ac8485a335453c5ead87b6a44405dd4944bc6df5108ff2f9bce9375f
+    name: python3-pip
+    evr: 23.3.2-1.fc40
+    sourcerpm: python-pip-23.3.2-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-platformdirs-3.11.0-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 46624
+    checksum: sha256:53c17e101a26f487d7af8b6edd1048fb343d6c232ea7a1f3d7a6859763cf6c70
+    name: python3-platformdirs
+    evr: 3.11.0-3.fc40
+    sourcerpm: python-platformdirs-3.11.0-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pluggy-1.3.0-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 56355
+    checksum: sha256:9194acb20042c5990bea7a56301c200ea4abf90556f7bc186a4075be84d308e5
+    name: python3-pluggy
+    evr: 1.3.0-3.fc40
+    sourcerpm: python-pluggy-1.3.0-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-ply-3.11-23.fc40.noarch.rpm
+    repoid: fedora
+    size: 139604
+    checksum: sha256:69a727c051ac94808ec516e4c29155c6960a09c996113763a4ae6ff7c276fe54
+    name: python3-ply
+    evr: 3.11-23.fc40
+    sourcerpm: python-ply-3.11-23.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pycares-4.3.0-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 66402
+    checksum: sha256:543a43cafafcb59da43844fafc8119aebd5185c27fd245e6ceb3a85b4937cf90
+    name: python3-pycares
+    evr: 4.3.0-6.fc40
+    sourcerpm: python-pycares-4.3.0-6.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pycodestyle-2.10.0-4.fc40.noarch.rpm
+    repoid: fedora
+    size: 106795
+    checksum: sha256:cfc33a24d241343724033bebff0da50c48f6a38310147f80f5b72b233cc6056a
+    name: python3-pycodestyle
+    evr: 2.10.0-4.fc40
+    sourcerpm: python-pycodestyle-2.10.0-4.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pycparser-2.20-14.fc40.noarch.rpm
+    repoid: fedora
+    size: 160554
+    checksum: sha256:4b92ea578cd9c3a58b43b0baeaa31b84b216a73d7a516ad7c759242e225d6f62
+    name: python3-pycparser
+    evr: 2.20-14.fc40
+    sourcerpm: python-pycparser-2.20-14.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pyflakes-3.0.1-5.fc40.noarch.rpm
+    repoid: fedora
+    size: 93745
+    checksum: sha256:24492e78a63f7bfb436b2e57835637466f80783b9dfbfc82975f6d4dd2f29dae
+    name: python3-pyflakes
+    evr: 3.0.1-5.fc40
+    sourcerpm: pyflakes-3.0.1-5.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pyproject-api-1.6.1-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 43240
+    checksum: sha256:0b7cd0838bdff0a133d012cc57e3babf666f0c81c31c8349f6d792c91901af59
+    name: python3-pyproject-api
+    evr: 1.6.1-3.fc40
+    sourcerpm: python-pyproject-api-1.6.1-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pyyaml-6.0.1-14.fc40.x86_64.rpm
+    repoid: fedora
+    size: 238344
+    checksum: sha256:f0f08cfaf86df631432e879c16a74be5fbdc935f6b9d84c88b4779ac8fb5a9b0
+    name: python3-pyyaml
+    evr: 6.0.1-14.fc40
+    sourcerpm: PyYAML-6.0.1-14.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/r/rubygem-json-2.7.1-203.fc40.x86_64.rpm
+    repoid: fedora
+    size: 71998
+    checksum: sha256:828137e293494ad481d8ceefe26ead416caef47763af0ebd5321fd203dc75c17
+    name: rubygem-json
+    evr: 2.7.1-203.fc40
+    sourcerpm: rubygem-json-2.7.1-203.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/r/rubypick-1.1.1-20.fc40.noarch.rpm
+    repoid: fedora
+    size: 10053
+    checksum: sha256:dbd3dfda6a7f13016bc84a9287b627cf6043534dac5358d51a963e50573910d7
+    name: rubypick
+    evr: 1.1.1-20.fc40
+    sourcerpm: rubypick-1.1.1-20.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/t/tcl-8.6.13-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1151218
+    checksum: sha256:2745e6582616427b4658b547a9eb79bcf2f817c686e8e86a96924fa3bff504db
+    name: tcl
+    evr: 1:8.6.13-2.fc40
+    sourcerpm: tcl-8.6.13-2.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/t/tix-8.4.3-40.fc40.x86_64.rpm
+    repoid: fedora
+    size: 274734
+    checksum: sha256:734764b6730040a5ae26a84c1bd0cf18f856d11ae3ea6d8aaceb6ddb685dbb52
+    name: tix
+    evr: 1:8.4.3-40.fc40
+    sourcerpm: tix-8.4.3-40.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/t/tk-8.6.13-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1691451
+    checksum: sha256:79e11682818b41c9141f6f6750413f961588648bfdb0d27e40db6136ddf4db5e
+    name: tk
+    evr: 1:8.6.13-3.fc40
+    sourcerpm: tk-8.6.13-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/u/unzip-6.0-63.fc40.x86_64.rpm
+    repoid: fedora
+    size: 188957
+    checksum: sha256:8e6642b19621b96ea4811018275f27cf55438c353e50e7c8627e0b30562d5126
+    name: unzip
+    evr: 6.0-63.fc40
+    sourcerpm: unzip-6.0-63.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/x/xml-common-0.6.3-63.fc40.noarch.rpm
+    repoid: fedora
+    size: 31723
+    checksum: sha256:b15ab14129ac17f34ac5e5cf84dbf6340684fbad5d2d4baeb6857531ee8fe15d
+    name: xml-common
+    evr: 0.6.3-63.fc40
+    sourcerpm: sgml-common-0.6.3-63.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/y/yamllint-1.35.1-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 133872
+    checksum: sha256:63eb9ba36b864c8d3b237cf44751b3366a741038686346ce4c9e51705b049d2f
+    name: yamllint
+    evr: 1.35.1-1.fc40
+    sourcerpm: yamllint-1.35.1-1.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/z/zig-srpm-macros-1-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 8232
+    checksum: sha256:3957667c460ee5ed7c46c401db9e1366bd8a22921ed620ffd9a4d7e79298a8f0
+    name: zig-srpm-macros
+    evr: 1-2.fc40
+    sourcerpm: zig-srpm-macros-1-2.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/z/zip-3.0-40.fc40.x86_64.rpm
+    repoid: fedora
+    size: 271139
+    checksum: sha256:feafa5144f815ab92fca16446ec7eea763e116a27e3c5716f7308a314e8138ba
+    name: zip
+    evr: 3.0-40.fc40
+    sourcerpm: zip-3.0-40.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/a/annobin-docs-12.60-1.fc40.noarch.rpm
+    repoid: updates
+    size: 91665
+    checksum: sha256:b28f03f6895fcef8315641998836c53f0a03e4c58be3ff7bed425087c4b23d56
+    name: annobin-docs
+    evr: 12.60-1.fc40
+    sourcerpm: annobin-12.60-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/a/annobin-plugin-gcc-12.60-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 989175
+    checksum: sha256:70b43461b6a3dbb37ce485ab5af5229ba73771ec6d2fa755f4ee8ff1c8114293
+    name: annobin-plugin-gcc
+    evr: 12.60-1.fc40
+    sourcerpm: annobin-12.60-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/b/binutils-2.41-37.fc40.x86_64.rpm
+    repoid: updates
+    size: 6538781
+    checksum: sha256:619340f90a77ad1f0f919826d0e2423a10e8b5aea3957b00393c75495997d125
+    name: binutils
+    evr: 2.41-37.fc40
+    sourcerpm: binutils-2.41-37.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/b/binutils-gold-2.41-37.fc40.x86_64.rpm
+    repoid: updates
+    size: 799366
+    checksum: sha256:f1d034d37740b0180f6b25cca42e6a82d8ad14513bf6158eaff96c8a0c6538e9
+    name: binutils-gold
+    evr: 2.41-37.fc40
+    sourcerpm: binutils-2.41-37.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/b/black+d-24.4.2-1.fc40.noarch.rpm
+    repoid: updates
+    size: 9545
+    checksum: sha256:1026b9a951908870ee6778b15d81e8183edac89e9ac1f99e00e6b250a6c8c0ef
+    name: black+d
+    evr: 24.4.2-1.fc40
+    sourcerpm: python-black-24.4.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/b/black-24.4.2-1.fc40.noarch.rpm
+    repoid: updates
+    size: 433442
+    checksum: sha256:e9028197874242816febe9a00a6f254d8d75d293a88150c555e29f419da5da31
+    name: black
+    evr: 24.4.2-1.fc40
+    sourcerpm: python-black-24.4.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/c/c-ares-1.28.1-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 161330
+    checksum: sha256:42421dcfb360c4ae65362010ead02390273e0faf5e3dd1d90131ba31cc46451f
+    name: c-ares
+    evr: 1.28.1-1.fc40
+    sourcerpm: c-ares-1.28.1-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/c/cpp-14.2.1-3.fc40.x86_64.rpm
+    repoid: updates
+    size: 12536256
+    checksum: sha256:7ee02d77a5ef26abd7683e318f9adc68b9b1ff7ba3c5119b3aeb8b1e62aecb2a
+    name: cpp
+    evr: 14.2.1-3.fc40
+    sourcerpm: gcc-14.2.1-3.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/d/default-fonts-core-sans-4.0-13.fc40.noarch.rpm
+    repoid: updates
+    size: 32208
+    checksum: sha256:bdf9486fc95ce99abda245caf378d9903c1dde7601434ccff8e1a51eecbfb525
+    name: default-fonts-core-sans
+    evr: 4.0-13.fc40
+    sourcerpm: langpacks-4.0-13.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/e/emacs-filesystem-29.4-9.fc40.noarch.rpm
+    repoid: updates
+    size: 9389
+    checksum: sha256:31e13b5c0705ace3798a4be69f59d432e6223de623347e6e0cf13316bc5860da
+    name: emacs-filesystem
+    evr: 1:29.4-9.fc40
+    sourcerpm: emacs-29.4-9.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/f/fontconfig-2.15.0-6.fc40.x86_64.rpm
+    repoid: updates
+    size: 276289
+    checksum: sha256:7545144b50eae97c5a37b322fd616531fb198e751446d7f00fe007156218f308
+    name: fontconfig
+    evr: 2.15.0-6.fc40
+    sourcerpm: fontconfig-2.15.0-6.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/f/forge-srpm-macros-0.3.2-1.fc40.noarch.rpm
+    repoid: updates
+    size: 20139
+    checksum: sha256:fd7875da8f0a566458ae18420e765f97ee7429c51819c084b5774cbc182e6f83
+    name: forge-srpm-macros
+    evr: 0.3.2-1.fc40
+    sourcerpm: forge-srpm-macros-0.3.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/gcc-14.2.1-3.fc40.x86_64.rpm
+    repoid: updates
+    size: 38761665
+    checksum: sha256:c828d2ea3d79beb95fab71c59d378f6e9834751ac2189af9c8685e123ee49642
+    name: gcc
+    evr: 14.2.1-3.fc40
+    sourcerpm: gcc-14.2.1-3.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/gcc-plugin-annobin-14.2.1-3.fc40.x86_64.rpm
+    repoid: updates
+    size: 56391
+    checksum: sha256:90be35490e414f34a40ddf8ba3558ca5a1aaf6f1dbfd06dd1bc856c9dbc5991c
+    name: gcc-plugin-annobin
+    evr: 14.2.1-3.fc40
+    sourcerpm: gcc-14.2.1-3.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/git-2.46.2-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 53161
+    checksum: sha256:edff0b2de771fbd5bb7f7a7eb1c296573710678dfa97de143e747fb82aa09b67
+    name: git
+    evr: 2.46.2-1.fc40
+    sourcerpm: git-2.46.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/git-core-2.46.2-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 5044806
+    checksum: sha256:d75b2ec92b61fc955d38104daeb3a368616016c06bfa32a1228bde3c4ba1b88b
+    name: git-core
+    evr: 2.46.2-1.fc40
+    sourcerpm: git-2.46.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/git-core-doc-2.46.2-1.fc40.noarch.rpm
+    repoid: updates
+    size: 3097539
+    checksum: sha256:ae2bb523bc17fc5e084d4feabf8693eee03fc76c740568f1861064e4c2d9bc6e
+    name: git-core-doc
+    evr: 2.46.2-1.fc40
+    sourcerpm: git-2.46.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/glibc-devel-2.39-22.fc40.x86_64.rpm
+    repoid: updates
+    size: 118400
+    checksum: sha256:bd2f6ddc6edb65a0c63b952d272f748fea1102630ca43facf25bb0a17b3b3ab9
+    name: glibc-devel
+    evr: 2.39-22.fc40
+    sourcerpm: glibc-2.39-22.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/glibc-gconv-extra-2.39-22.fc40.x86_64.rpm
+    repoid: updates
+    size: 1755070
+    checksum: sha256:c185634bd4f161c35292daa028823a607c78f1e71727b6c506d640771ddd88aa
+    name: glibc-gconv-extra
+    evr: 2.39-22.fc40
+    sourcerpm: glibc-2.39-22.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/g/glibc-headers-x86-2.39-22.fc40.noarch.rpm
+    repoid: updates
+    size: 624278
+    checksum: sha256:064d8433785d19b73f84bf8e15edb9e8f38458f49604b56f1a892fa171e24849
+    name: glibc-headers-x86
+    evr: 2.39-22.fc40
+    sourcerpm: glibc-2.39-22.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/h/harfbuzz-8.5.0-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 1073085
+    checksum: sha256:8526160b253b26bd588e8f9b6c942004cea03bf328ed8a89de7e9e2eafe28010
+    name: harfbuzz
+    evr: 8.5.0-1.fc40
+    sourcerpm: harfbuzz-8.5.0-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/k/kernel-headers-6.10.3-200.fc40.x86_64.rpm
+    repoid: updates
+    size: 1682030
+    checksum: sha256:be9fc0438a226252a3435196f72f66935b7e26cba58724d3e1dc8c7417f647d7
+    name: kernel-headers
+    evr: 6.10.3-200.fc40
+    sourcerpm: kernel-headers-6.10.3-200.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/less-643-6.fc40.x86_64.rpm
+    repoid: updates
+    size: 178869
+    checksum: sha256:1f026dab89c00d82ea9ed69e2268a166891082dc28c0ecc7285052827fc8dcbd
+    name: less
+    evr: 643-6.fc40
+    sourcerpm: less-643-6.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-1.8.10-2.fc40.x86_64.rpm
+    repoid: updates
+    size: 665380
+    checksum: sha256:5d93922232932a8f42ccb1e9ddb7c0f5c57c7acce6d37fd69ab0acb78f9016b3
+    name: libX11
+    evr: 1.8.10-2.fc40
+    sourcerpm: libX11-1.8.10-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-common-1.8.10-2.fc40.noarch.rpm
+    repoid: updates
+    size: 180048
+    checksum: sha256:7ab9443a2a45d276143bc2eb4c83b6da302db59792e9fd7fca3f063e7cabcfeb
+    name: libX11-common
+    evr: 1.8.10-2.fc40
+    sourcerpm: libX11-1.8.10-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libdb-5.3.28-62.fc40.x86_64.rpm
+    repoid: updates
+    size: 775973
+    checksum: sha256:03642fc857f0b734ca68dfca6824a09bf7bc8439d2febd1a87f8617ddfba2c1c
+    name: libdb
+    evr: 5.3.28-62.fc40
+    sourcerpm: libdb-5.3.28-62.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libedit-3.1-53.20240808cvs.fc40.x86_64.rpm
+    repoid: updates
+    size: 107958
+    checksum: sha256:b003de79beac86385d212fce137417439e8ec7cb863115d560e02834c84efd1e
+    name: libedit
+    evr: 3.1-53.20240808cvs.fc40
+    sourcerpm: libedit-3.1-53.20240808cvs.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libfdisk-2.40.1-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 163260
+    checksum: sha256:2481691bd2ee6aab48b1a0306357337007b2b0af082e4fdef47dcc5a8a8357be
+    name: libfdisk
+    evr: 2.40.1-1.fc40
+    sourcerpm: util-linux-2.40.1-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libpkgconf-2.1.1-2.fc40.x86_64.rpm
+    repoid: updates
+    size: 38843
+    checksum: sha256:3f8bb781f774a99ca828f8c5a56b827cf2ad8578330e8e8ae2ab19905a77718e
+    name: libpkgconf
+    evr: 2.1.1-2.fc40
+    sourcerpm: pkgconf-2.1.1-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/libxcb-1.17.0-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 244439
+    checksum: sha256:efbffb375e2ae13d9dd6034e957fbfb8f86132d5298003f713ad804e06f486d7
+    name: libxcb
+    evr: 1.17.0-1.fc40
+    sourcerpm: libxcb-1.17.0-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/l/llhttp-9.2.1-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 33727
+    checksum: sha256:543abe72364e6126ccc8c8bdfb9ce2daf0e7f7fc6b69a268ba77da0aea296ace
+    name: llhttp
+    evr: 9.2.1-1.fc40
+    sourcerpm: llhttp-9.2.1-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/o/openssh-9.6p1-1.fc40.4.x86_64.rpm
+    repoid: updates
+    size: 435216
+    checksum: sha256:7cc7617d495bdb6b5c06bef538068a53e7cec8209c674918fd30ac82fba95b11
+    name: openssh
+    evr: 9.6p1-1.fc40.4
+    sourcerpm: openssh-9.6p1-1.fc40.4.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/o/openssh-clients-9.6p1-1.fc40.4.x86_64.rpm
+    repoid: updates
+    size: 765503
+    checksum: sha256:80e63c09c3bc9bb11bfd11914f0e94d547c622b86bdbb9383feed46f684b05a7
+    name: openssh-clients
+    evr: 9.6p1-1.fc40.4
+    sourcerpm: openssh-9.6p1-1.fc40.4.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/perl-Getopt-Long-2.57-4.fc40.noarch.rpm
+    repoid: updates
+    size: 64908
+    checksum: sha256:c61ce353b34a66009027a2d2e0d819a728b02e888a496c5cf8e63b164b731e6e
+    name: perl-Getopt-Long
+    evr: 1:2.57-4.fc40
+    sourcerpm: perl-Getopt-Long-2.57-4.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/perl-Git-2.46.2-1.fc40.noarch.rpm
+    repoid: updates
+    size: 39592
+    checksum: sha256:7cc23a3ac7568014855b01dcea6a5c3490862eb71c4aa811b6d26c5ec9e796f7
+    name: perl-Git
+    evr: 2.46.2-1.fc40
+    sourcerpm: git-2.46.2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/perl-Pod-Usage-2.03-504.fc40.noarch.rpm
+    repoid: updates
+    size: 40767
+    checksum: sha256:47df4820644fab7febd411bcb3b5dbffdefdcc270951a288500b3fca0b7bb5bf
+    name: perl-Pod-Usage
+    evr: 4:2.03-504.fc40
+    sourcerpm: perl-Pod-Usage-2.03-504.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/perl-Socket-2.038-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 56109
+    checksum: sha256:9ae39e75e08ccae18983d93c9bfbd3c7739975c4fde6265c825d5d257a02757a
+    name: perl-Socket
+    evr: 4:2.038-1.fc40
+    sourcerpm: perl-Socket-2.038-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/perl-URI-5.28-1.fc40.noarch.rpm
+    repoid: updates
+    size: 135959
+    checksum: sha256:667865fb93f3851228eb29e5403759315e6e34b0e319b43857eb1d46d0e002bb
+    name: perl-URI
+    evr: 5.28-1.fc40
+    sourcerpm: perl-URI-5.28-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pixman-0.43.4-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 300280
+    checksum: sha256:ef1ecf553352e1eac512e8a306f4fd8df7572ead32fe307ba3aba679a61c382f
+    name: pixman
+    evr: 0.43.4-1.fc40
+    sourcerpm: pixman-0.43.4-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pkgconf-2.1.1-2.fc40.x86_64.rpm
+    repoid: updates
+    size: 44799
+    checksum: sha256:513cbea187f3e8fab8823da02d133e04de6eea1232e2af5b1b0bf9fcfa27b70f
+    name: pkgconf
+    evr: 2.1.1-2.fc40
+    sourcerpm: pkgconf-2.1.1-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pkgconf-m4-2.1.1-2.fc40.noarch.rpm
+    repoid: updates
+    size: 14377
+    checksum: sha256:b470bae5560e1d676145e9d53f76136f7c7b02a272d055fe89bd744847b49594
+    name: pkgconf-m4
+    evr: 2.1.1-2.fc40
+    sourcerpm: pkgconf-2.1.1-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pkgconf-pkg-config-2.1.1-2.fc40.x86_64.rpm
+    repoid: updates
+    size: 10082
+    checksum: sha256:6778aa7057eea9243ac150c38924edcfc3c23d85c704fe3be7ca2f6c9eca33c1
+    name: pkgconf-pkg-config
+    evr: 2.1.1-2.fc40
+    sourcerpm: pkgconf-2.1.1-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pyproject-srpm-macros-1.13.0-1.fc40.noarch.rpm
+    repoid: updates
+    size: 13183
+    checksum: sha256:4f225a0b2951957ed9061b9bc4ae324dca1dffc1eb7b824fbc56ff3ff38bd937
+    name: pyproject-srpm-macros
+    evr: 1.13.0-1.fc40
+    sourcerpm: pyproject-rpm-macros-1.13.0-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy-7.3.17-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 13897
+    checksum: sha256:158a2c8f6471eeb9e21495c9d5f68c401eadd48378684da7ab5c590d929864df
+    name: pypy
+    evr: 7.3.17-1.fc40
+    sourcerpm: pypy-7.3.17-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy-devel-7.3.17-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 80801
+    checksum: sha256:c1b5e5ca63bbd8500597ad54a5d7fa5a0493e9d04c9acefc3adfe6983538a286
+    name: pypy-devel
+    evr: 7.3.17-1.fc40
+    sourcerpm: pypy-7.3.17-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy-libs-7.3.17-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 21025287
+    checksum: sha256:6000afe4ec25e470dcaa7c05d5b67381f0517ded248d4b72e88e51414e8a39a3
+    name: pypy-libs
+    evr: 7.3.17-1.fc40
+    sourcerpm: pypy-7.3.17-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy3.9-7.3.16-1.3.9.fc40.x86_64.rpm
+    repoid: updates
+    size: 13181
+    checksum: sha256:add923b4ad30e055cbceeadefde6cdeeca005ae05b2faf01f5b9338ccc43eda3
+    name: pypy3.9
+    evr: 7.3.16-1.3.9.fc40
+    sourcerpm: pypy3.9-7.3.16-1.3.9.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy3.9-devel-7.3.16-1.3.9.fc40.x86_64.rpm
+    repoid: updates
+    size: 176961
+    checksum: sha256:5211f58960b652ffbdecdfbca4233434bab3bb5ebaa00b4aacfcd83394e408fc
+    name: pypy3.9-devel
+    evr: 7.3.16-1.3.9.fc40
+    sourcerpm: pypy3.9-7.3.16-1.3.9.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy3.9-libs-7.3.16-1.3.9.fc40.x86_64.rpm
+    repoid: updates
+    size: 17483301
+    checksum: sha256:1adddf81af3ad34d40d641eb5621fedc7fa4963a76ede9cfb170d3041136342b
+    name: pypy3.9-libs
+    evr: 7.3.16-1.3.9.fc40
+    sourcerpm: pypy3.9-7.3.16-1.3.9.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python-setuptools-wheel-69.0.3-4.fc40.noarch.rpm
+    repoid: updates
+    size: 692945
+    checksum: sha256:bb330cc886ee27e778ff61673cdd33a2ab2cfcf03d2bc00b3b6b18ae29177bef
+    name: python-setuptools-wheel
+    evr: 69.0.3-4.fc40
+    sourcerpm: python-setuptools-69.0.3-4.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python-srpm-macros-3.12-8.fc40.noarch.rpm
+    repoid: updates
+    size: 23948
+    checksum: sha256:6ea431da8ae16131fcf943610f0bafa6405eea585d96978e4f02854d7a1437cf
+    name: python-srpm-macros
+    evr: 3.12-8.fc40
+    sourcerpm: python-rpm-macros-3.12-8.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python2.7-2.7.18-43.fc40.x86_64.rpm
+    repoid: updates
+    size: 14022591
+    checksum: sha256:664f809ee387a3868df4798e58dd83f0fb946e4f0d58e221da0d717e6263cf38
+    name: python2.7
+    evr: 2.7.18-43.fc40
+    sourcerpm: python2.7-2.7.18-43.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-aiohttp+speedups-3.9.5-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 10969
+    checksum: sha256:7fa829d1ed7847a53992266921084473f8cf22086d3eb327d15e77c64bcdbb37
+    name: python3-aiohttp+speedups
+    evr: 3.9.5-1.fc40
+    sourcerpm: python-aiohttp-3.9.5-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-aiohttp-3.9.5-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 675312
+    checksum: sha256:85a44434d4dc25674fb73c68472cf1b7c4133cda93beb69b333ca2159c9a0b62
+    name: python3-aiohttp
+    evr: 3.9.5-1.fc40
+    sourcerpm: python-aiohttp-3.9.5-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-devel-3.12.6-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 320957
+    checksum: sha256:17c3a7745012af32e4e051bf87a57228a0f89ba7c907e884162826b5f7eaafda
+    name: python3-devel
+    evr: 3.12.6-1.fc40
+    sourcerpm: python3.12-3.12.6-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-idna-3.7-1.fc40.noarch.rpm
+    repoid: updates
+    size: 121785
+    checksum: sha256:f1f8de820d89267c5910ac1f298249a5e242d5cfa454a6d46497d9ff8be03d74
+    name: python3-idna
+    evr: 3.7-1.fc40
+    sourcerpm: python-idna-3.7-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-multidict-6.0.5-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 57554
+    checksum: sha256:a33d1d65973ecf4e6ea59605715f065e11e20e2287da7224d91ee6a511aa0714
+    name: python3-multidict
+    evr: 6.0.5-1.fc40
+    sourcerpm: python-multidict-6.0.5-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-virtualenv-20.21.1-16.fc40.noarch.rpm
+    repoid: updates
+    size: 311153
+    checksum: sha256:f72bd1523c3e1637ac3127d29dda8876a96540235859984b326c63e8e7eee1ce
+    name: python3-virtualenv
+    evr: 20.21.1-16.fc40
+    sourcerpm: python-virtualenv-20.21.1-16.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3-yarl-1.9.4-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 115168
+    checksum: sha256:d804bf8add84a29b70bed3893320f4b3bc074cbe217a8c72c23bc1dcf47354c1
+    name: python3-yarl
+    evr: 1.9.4-1.fc40
+    sourcerpm: python-yarl-1.9.4-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.10-3.10.15-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 26308
+    checksum: sha256:81b966c26fa64ea5dcf5a8260e1c09d4567d02dbfea17740e6dabc313191d6c7
+    name: python3.10
+    evr: 3.10.15-1.fc40
+    sourcerpm: python3.10-3.10.15-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.10-devel-3.10.15-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 241003
+    checksum: sha256:2d807fc991f7131b176e929b62782aa0a82a6bde8d66809b55dbb71574d8bca0
+    name: python3.10-devel
+    evr: 3.10.15-1.fc40
+    sourcerpm: python3.10-3.10.15-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.10-libs-3.10.15-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 8103597
+    checksum: sha256:cc96462c38a281c7a43f5ae46aca5c21631ae0fb19d9600488d55825697fcd75
+    name: python3.10-libs
+    evr: 3.10.15-1.fc40
+    sourcerpm: python3.10-3.10.15-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.10-tkinter-3.10.15-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 352641
+    checksum: sha256:1cbaa97bb8a6bc1f45ca6ec35fbfc1f0a65affe85ab0a8d23b64586134374ae8
+    name: python3.10-tkinter
+    evr: 3.10.15-1.fc40
+    sourcerpm: python3.10-3.10.15-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.11-3.11.10-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 26714
+    checksum: sha256:f2ddbfa90ffc404d7464cf998006fd225c6842c032919efc2b9d96b5b8892e4c
+    name: python3.11
+    evr: 3.11.10-1.fc40
+    sourcerpm: python3.11-3.11.10-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.11-devel-3.11.10-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 272958
+    checksum: sha256:8098a374ec3383fbb3e0a523a3c1f9fce4da9aceebea4931c909d757b8f60bf5
+    name: python3.11-devel
+    evr: 3.11.10-1.fc40
+    sourcerpm: python3.11-3.11.10-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.11-libs-3.11.10-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 9989230
+    checksum: sha256:889898d0eaabc5fa052b32b0d72f9e1c40daa45409e2b9b85efa7294b67e124c
+    name: python3.11-libs
+    evr: 3.11.10-1.fc40
+    sourcerpm: python3.11-3.11.10-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.11-tkinter-3.11.10-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 425828
+    checksum: sha256:9a5457e55381b2398a9aeccbc0ec2e29a84a6bbea898c602c71f3140655bb0ad
+    name: python3.11-tkinter
+    evr: 3.11.10-1.fc40
+    sourcerpm: python3.11-3.11.10-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.13-3.13.0~rc2-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 27506
+    checksum: sha256:411a1d3ac9b62b9cdb4ecf782b16515f7d9484f589ffd6b8c9c3ed837a5595b3
+    name: python3.13
+    evr: 3.13.0~rc2-1.fc40
+    sourcerpm: python3.13-3.13.0~rc2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.13-devel-3.13.0~rc2-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 410833
+    checksum: sha256:653ba6fd71fde367ff9036c263784425e6f7b24a0d8bcd3174b0a06ed35bd383
+    name: python3.13-devel
+    evr: 3.13.0~rc2-1.fc40
+    sourcerpm: python3.13-3.13.0~rc2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.13-libs-3.13.0~rc2-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 9540509
+    checksum: sha256:7de5bbf34e52e9667f09890d4f21274e6e9da922238587c9c887b0e4a74527a4
+    name: python3.13-libs
+    evr: 3.13.0~rc2-1.fc40
+    sourcerpm: python3.13-3.13.0~rc2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.13-tkinter-3.13.0~rc2-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 387228
+    checksum: sha256:42dd0bc86a49f90008e5d0bec25e7f5ec33b0d535be95dc5036aa6fb2982cfaf
+    name: python3.13-tkinter
+    evr: 3.13.0~rc2-1.fc40
+    sourcerpm: python3.13-3.13.0~rc2-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.6-3.6.15-37.fc40.x86_64.rpm
+    repoid: updates
+    size: 19640403
+    checksum: sha256:83eff6d64ebd1ca3e587a14e50e49fa155fa0282fcf93141a8914cc8b46a446b
+    name: python3.6
+    evr: 3.6.15-37.fc40
+    sourcerpm: python3.6-3.6.15-37.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.8-3.8.20-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 17332881
+    checksum: sha256:5dd946a619adb6538e8f6ada493ead34a2a78bca86c612cbc17942a60a939293
+    name: python3.8
+    evr: 3.8.20-1.fc40
+    sourcerpm: python3.8-3.8.20-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/python3.9-3.9.20-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 19934212
+    checksum: sha256:d115d68ae2621cbc21b30673813c715bd4f44a45f1ae4e9ab75ed24d86751b01
+    name: python3.9
+    evr: 3.9.20-1.fc40
+    sourcerpm: python3.9-3.9.20-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/q/qt5-srpm-macros-5.15.15-1.fc40.noarch.rpm
+    repoid: updates
+    size: 9116
+    checksum: sha256:3964b93f36be9a4570d882c2886939eba4df0a880132945d7deb47b21b854bd5
+    name: qt5-srpm-macros
+    evr: 5.15.15-1.fc40
+    sourcerpm: qt5-5.15.15-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/q/qt6-srpm-macros-6.7.2-2.fc40.noarch.rpm
+    repoid: updates
+    size: 9214
+    checksum: sha256:a7a1e173b543c524249f8a7eef986f942c89030c0ee7b77ab95faa35c0f4372c
+    name: qt6-srpm-macros
+    evr: 6.7.2-2.fc40
+    sourcerpm: qt6-6.7.2-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/redhat-rpm-config-288-1.fc40.noarch.rpm
+    repoid: updates
+    size: 84063
+    checksum: sha256:a71f0902957839e18a7f9e13caf4d37a3d53d1c3f5f51a4a57eec80b3edb948d
+    name: redhat-rpm-config
+    evr: 288-1.fc40
+    sourcerpm: redhat-rpm-config-288-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/ruby-3.3.5-14.fc40.x86_64.rpm
+    repoid: updates
+    size: 39826
+    checksum: sha256:be81959f4c1f5fc077291c9d6a048b96429953286d8ebc7966253b09da0dc67e
+    name: ruby
+    evr: 3.3.5-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/ruby-default-gems-3.3.5-14.fc40.noarch.rpm
+    repoid: updates
+    size: 47880
+    checksum: sha256:f5eabcb5513857fcf514018fb9843efdbfc50a6b87a5c36d691a31042d2b56aa
+    name: ruby-default-gems
+    evr: 3.3.5-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/ruby-libs-3.3.5-14.fc40.x86_64.rpm
+    repoid: updates
+    size: 4180721
+    checksum: sha256:13e8148179881d28b75c6d674efd780d73aebeb42d5096af414d33d80e708a54
+    name: ruby-libs
+    evr: 3.3.5-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rubygem-bigdecimal-3.1.5-14.fc40.x86_64.rpm
+    repoid: updates
+    size: 69611
+    checksum: sha256:02da23478ac3050213a4647cd721e4fcde18fb61ad7cbaa66d1ec8e76808aed4
+    name: rubygem-bigdecimal
+    evr: 3.1.5-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rubygem-bundler-2.5.16-14.fc40.noarch.rpm
+    repoid: updates
+    size: 460214
+    checksum: sha256:9ca9edf50008a912d537ae7d415bb20f8557edc2c840e2248e262996d29df867
+    name: rubygem-bundler
+    evr: 2.5.16-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rubygem-io-console-0.7.1-14.fc40.x86_64.rpm
+    repoid: updates
+    size: 24121
+    checksum: sha256:1c3fdf1dbcca4f245d7e55443e072bee6082bcaacdbe03d27fffdd873520f71e
+    name: rubygem-io-console
+    evr: 0.7.1-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rubygem-psych-5.1.2-14.fc40.x86_64.rpm
+    repoid: updates
+    size: 58251
+    checksum: sha256:98c4afa7b6653d188e772ec1841d424a6405d96ead8b4a5a40e45e7dab36099f
+    name: rubygem-psych
+    evr: 5.1.2-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rubygem-rdoc-6.6.3.1-14.fc40.noarch.rpm
+    repoid: updates
+    size: 502829
+    checksum: sha256:8bdef27fe8692bbb22e0c84a734284cb0baf1c712178b04d66c21f2dbda7d3d3
+    name: rubygem-rdoc
+    evr: 6.6.3.1-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rubygems-3.5.16-14.fc40.noarch.rpm
+    repoid: updates
+    size: 400344
+    checksum: sha256:8f772ba1b9290621bb6d52fd924ffaa9412cf62396bb35031d1559fbd8c23db2
+    name: rubygems
+    evr: 3.5.16-14.fc40
+    sourcerpm: ruby-3.3.5-14.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/r/rust-srpm-macros-26.3-1.fc40.noarch.rpm
+    repoid: updates
+    size: 12812
+    checksum: sha256:5d0470c00b7b6102f383dd8845e7000377040f0bd79e6947034b03f1b84080ef
+    name: rust-srpm-macros
+    evr: 26.3-1.fc40
+    sourcerpm: rust-packaging-26.3-1.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/t/tox-4.16.0-2.fc40.noarch.rpm
+    repoid: updates
+    size: 406966
+    checksum: sha256:022c32e7207d5ea6c931d02293e7ae2e1b9fea55afc13854962f649b78b3597f
+    name: tox
+    evr: 4.16.0-2.fc40
+    sourcerpm: python-tox-4.16.0-2.fc40.src.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/u/util-linux-2.40.1-1.fc40.x86_64.rpm
+    repoid: updates
+    size: 1262548
+    checksum: sha256:41b777c50f1ec74795551c7d930a3d6eceab278ff03608893a5dbd49f2de5363
+    name: util-linux
+    evr: 2.40.1-1.fc40
+    sourcerpm: util-linux-2.40.1-1.fc40.src.rpm
+  source: []
+  module_metadata: []
