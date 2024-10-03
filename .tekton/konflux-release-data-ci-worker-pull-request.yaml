@@ -34,7 +34,7 @@ spec:
       value: src
     - name: prefetch-input
       value: |
-        ['{"type": "pip", "path": "src"}', '{"type": "rpm", "path": "src"}']
+        [{"type": "pip", "path": "src"}, {"type": "rpm", "path": "src"}]
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.
