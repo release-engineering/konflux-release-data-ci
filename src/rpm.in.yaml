@@ -1,0 +1,21 @@
+contentOrigin:
+  # Define at least one source of packages, but you can have as many as you want.
+  repofiles:
+    - fedora.repo
+
+packages:
+  - tox
+  - git
+  - ruby
+  - gcc
+  - python-flake8
+  - python-isort
+  - black
+  - yamllint
+  - pytest
+
+arches:
+  - x86_64
+
+context:
+  containerfile: Containerfile
