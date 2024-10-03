@@ -4,7 +4,7 @@ FROM quay.io/fedora/fedora@sha256:ae5eae39d9df1528dc8a6dca806075f93640834b89df2f
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install tox git ruby gcc python-flake8 python-isort black yamllint; dnf clean all
+RUN dnf -y install tox git ruby gcc python-flake8 python-isort black yamllint pytest; dnf clean all
 
 COPY requirements.txt requirements-build.txt ./
 
