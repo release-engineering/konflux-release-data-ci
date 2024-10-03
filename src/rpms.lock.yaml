@@ -809,6 +809,13 @@ arches:
     name: python3-frozenlist
     evr: 1.4.1-3.fc40
     sourcerpm: python-frozenlist-1.4.1-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-iniconfig-1.1.1-16.fc40.noarch.rpm
+    repoid: fedora
+    size: 18356
+    checksum: sha256:3796adf3415c87dfb8395764190e4de6e1691095c20ca1dc9c7ee7584ec28858
+    name: python3-iniconfig
+    evr: 1.1.1-16.fc40
+    sourcerpm: python-iniconfig-1.1.1-16.fc40.src.rpm
   - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-isort-5.13.2-3.fc40.noarch.rpm
     repoid: fedora
     size: 247258
@@ -907,6 +914,13 @@ arches:
     name: python3-pyproject-api
     evr: 1.6.1-3.fc40
     sourcerpm: python-pyproject-api-1.6.1-3.fc40.src.rpm
+  - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pytest-7.4.3-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 1989337
+    checksum: sha256:452ee94d904c2976946f2734d095e187d7f729e054eadd315c787e53e118056a
+    name: python3-pytest
+    evr: 7.4.3-3.fc40
+    sourcerpm: pytest-7.4.3-3.fc40.src.rpm
   - url: http://ftp.sh.cvut.cz/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/python3-pyyaml-6.0.1-14.fc40.x86_64.rpm
     repoid: fedora
     size: 238344
@@ -1278,13 +1292,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 2.1.1-2.fc40
     sourcerpm: pkgconf-2.1.1-2.fc40.src.rpm
-  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pyproject-srpm-macros-1.13.0-1.fc40.noarch.rpm
+  - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pyproject-srpm-macros-1.15.0-1.fc40.noarch.rpm
     repoid: updates
-    size: 13183
-    checksum: sha256:4f225a0b2951957ed9061b9bc4ae324dca1dffc1eb7b824fbc56ff3ff38bd937
+    size: 13895
+    checksum: sha256:f25f4f24b403c2f4f4357dcd6bc57f3d08494bd086bcc9f73ea566839d823a67
     name: pyproject-srpm-macros
-    evr: 1.13.0-1.fc40
-    sourcerpm: pyproject-rpm-macros-1.13.0-1.fc40.src.rpm
+    evr: 1.15.0-1.fc40
+    sourcerpm: pyproject-rpm-macros-1.15.0-1.fc40.src.rpm
   - url: https://mirror.karneval.cz/pub/linux/fedora/linux/updates/40/Everything/x86_64/Packages/p/pypy-7.3.17-1.fc40.x86_64.rpm
     repoid: updates
     size: 13897
