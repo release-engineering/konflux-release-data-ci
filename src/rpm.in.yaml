@@ -10,6 +10,7 @@ packages:
   - gcc
   - python-flake8
   - python-isort
+  - python-fastjsonschema
   - black
   - yamllint
   - pytest
