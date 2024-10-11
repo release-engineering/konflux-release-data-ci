@@ -1,10 +1,10 @@
 FROM quay.io/konflux-ci/yq@sha256:38ab906362d7b0300d77dc061925e6c416d4c0919470c840802ca139375be6c4 as yq
 
-FROM quay.io/fedora/fedora@sha256:fb6b7814deb770c0bd99ad618f6f53d9a12261df061989f1dfd3d90ad1ac193e
+FROM quay.io/fedora/fedora@sha256:1ee283d42cb3212d8acaa027bf9d5c844fde9344776466af5959d136cb9a63d8
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install tox git ruby gcc python-flake8 python-isort black yamllint pytest python-fastjsonschema; dnf clean all
+RUN dnf -y install tox git ruby gcc python-flake8 python-isort black yamllint pytest python-fastjsonschema python-dogpile-cache; dnf clean all
 
 COPY requirements.txt requirements-build.txt ./
 
