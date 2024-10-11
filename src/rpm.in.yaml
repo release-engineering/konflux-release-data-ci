@@ -11,6 +11,7 @@ packages:
   - python-flake8
   - python-isort
   - python-fastjsonschema
+  - python-dogpile-cache
   - black
   - yamllint
   - pytest
