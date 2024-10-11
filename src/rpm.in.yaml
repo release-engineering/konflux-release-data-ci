@@ -12,6 +12,7 @@ packages:
   - python-isort
   - python-fastjsonschema
   - python-dogpile-cache
+  - python-GitPython
   - black
   - yamllint
   - pytest
