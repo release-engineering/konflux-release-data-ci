@@ -1,6 +1,6 @@
 FROM quay.io/konflux-ci/yq@sha256:2e1c94e3c5fce4103e8faa6e3cdf87010d21bd0abaa23cb26acfd3d82315fc0a as yq
 
-FROM quay.io/fedora/fedora@sha256:34d4a480af0f81bbcce56f32363524daa1319c68e95bfcfce1e308c8cbe67edc
+FROM quay.io/fedora/fedora@sha256:168b382c99f5425c7495efb1582287656089fd6573829fb1f338a5e8976eb5b8
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
