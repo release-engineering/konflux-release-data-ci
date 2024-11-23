@@ -118,9 +118,9 @@ pathspec==0.12.1 \
     # via
     #   -r requirements-build.in
     #   hatchling
-pdm-backend==2.4.1 \
-    --hash=sha256:5bb84a9845a00759c1e1cd455ac652745421df5f90ec629160410af5b0ac537a \
-    --hash=sha256:d6404e94a612459c5213cc63df035711244173c57441b8312a2a6f4a8c110934
+pdm-backend==2.4.3 \
+    --hash=sha256:07c7e7ae9dc7bbaf9a470e8d2cc59e987bf2897c2f27a7efbde8f1534c0ea4ee \
+    --hash=sha256:dbd9047a7ac10d11a5227e97163b617ad5d665050476ff63867d971758200728
     # via -r requirements-build.in
 pluggy==1.5.0 \
     --hash=sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1 \
