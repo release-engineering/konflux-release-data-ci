@@ -6,6 +6,12 @@ COPY --from=yq /usr/bin/yq /usr/bin/yq
 
 RUN dnf -y install tox git ruby gcc python-flake8 python-isort black yamllint pytest python-fastjsonschema python-dogpile-cache python-GitPython; dnf clean all
 
+RUN curl -s https://certs.corp.redhat.com/certs/2015-IT-Root-CA.pem \
+         -o /etc/pki/ca-trust/source/anchors/2015-IT-Root-CA.pem
+RUN curl -s https://certs.corp.redhat.com/certs/2022-IT-Root-CA.pem \
+         -o /etc/pki/ca-trust/source/anchors/2022-IT-Root-CA.pem \
+    && update-ca-trust extract
+
 COPY requirements.txt requirements-build.txt ./
 
 RUN pip install -r requirements-build.txt -r requirements.txt
