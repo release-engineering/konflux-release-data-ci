@@ -248,9 +248,9 @@ mkdocstrings[python]==0.26.1 \
     # via
     #   -r ./src/requirements.in
     #   mkdocstrings-python
-mkdocstrings-python==1.11.1 \
-    --hash=sha256:8824b115c5359304ab0b5378a91f6202324a849e1da907a3485b59208b797322 \
-    --hash=sha256:a21a1c05acef129a618517bb5aae3e33114f569b11588b1e7af3e9d4061a71af
+mkdocstrings-python==1.15.0 \
+    --hash=sha256:2bfecbbe1252c67281408a6567d59545f4979931110f01ab625aa8c227c06edc \
+    --hash=sha256:77aced1bb28840d7d3510f77353319eeb450961880d87f9c53fdab331ba0120d
     # via mkdocstrings
 packaging==24.1 \
     --hash=sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002 \
