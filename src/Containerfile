@@ -1,4 +1,4 @@
-FROM quay.io/konflux-ci/yq@sha256:4ea9ee652a035c341d00424ff6ebaf757f4b9391e016d3fdb542981bf0f537ef as yq
+FROM quay.io/konflux-ci/yq@sha256:a174d92a12ffd8fc80c2b00300c6011d8c4ce016afc07c7ca2bd891de4625a4b as yq
 
 FROM quay.io/fedora/fedora:40
 
