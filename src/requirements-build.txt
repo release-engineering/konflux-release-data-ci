@@ -96,17 +96,57 @@ hatch-vcs==0.4.0 \
     --hash=sha256:093810748fe01db0d451fabcf2c1ac2688caefd232d4ede967090b1c1b07d9f7 \
     --hash=sha256:b8a2b6bee54cf6f9fc93762db73890017ae59c9081d1038a41f16235ceaf8b2c
     # via -r requirements-build.in
-hatchling==1.25.0 \
-    --hash=sha256:7064631a512610b52250a4d3ff1bd81551d6d1431c4eb7b72e734df6c74f4262 \
-    --hash=sha256:b47948e45d4d973034584dd4cb39c14b6a70227cf287ab7ec0ad7983408a882c
+hatchling==1.27.0 \
+    --hash=sha256:971c296d9819abb3811112fc52c7a9751c8d381898f36533bb16f9791e941fd6 \
+    --hash=sha256:d3a2f3567c4f926ea39849cdf924c7e99e6686c9c8e288ae1037c8fa2a5d937b
     # via
     #   -r requirements-build.in
     #   hatch-nodejs-version
     #   hatch-requirements-txt
     #   hatch-vcs
-packaging==24.1 \
-    --hash=sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002 \
-    --hash=sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124
+mypy==1.14.0 \
+    --hash=sha256:00df23b42e533e02a6f0055e54de9a6ed491cd8b7ea738647364fd3a39ea7efc \
+    --hash=sha256:0b16738b1d80ec4334654e89e798eb705ac0c36c8a5c4798496cd3623aa02286 \
+    --hash=sha256:10065fcebb7c66df04b05fc799a854b1ae24d9963c8bb27e9064a9bdb43aa8ad \
+    --hash=sha256:14117b9da3305b39860d0aa34b8f1ff74d209a368829a584eb77524389a9c13e \
+    --hash=sha256:1628c5c3ce823d296e41e2984ff88c5861499041cb416a8809615d0c1f41740e \
+    --hash=sha256:1daca283d732943731a6a9f20fdbcaa927f160bc51602b1d4ef880a6fb252015 \
+    --hash=sha256:2238d7f93fc4027ed1efc944507683df3ba406445a2b6c96e79666a045aadfab \
+    --hash=sha256:273e70fcb2e38c5405a188425aa60b984ffdcef65d6c746ea5813024b68c73dc \
+    --hash=sha256:342de51c48bab326bfc77ce056ba08c076d82ce4f5a86621f972ed39970f94d8 \
+    --hash=sha256:3498cb55448dc5533e438cd13d6ddd28654559c8c4d1fd4b5ca57a31b81bac01 \
+    --hash=sha256:390dfb898239c25289495500f12fa73aa7f24a4c6d90ccdc165762462b998d63 \
+    --hash=sha256:3fa76988dc760da377c1e5069200a50d9eaaccf34f4ea18428a3337034ab5a44 \
+    --hash=sha256:56b2280cedcb312c7a79f5001ae5325582d0d339bce684e4a529069d0e7ca1e7 \
+    --hash=sha256:585ed36031d0b3ee362e5107ef449a8b5dfd4e9c90ccbe36414ee405ee6b32ba \
+    --hash=sha256:6e73c8a154eed31db3445fe28f63ad2d97b674b911c00191416cf7f6459fd49a \
+    --hash=sha256:74e925649c1ee0a79aa7448baf2668d81cc287dc5782cff6a04ee93f40fb8d3f \
+    --hash=sha256:7a52f26b9c9b1664a60d87675f3bae00b5c7f2806e0c2800545a32c325920bcc \
+    --hash=sha256:7e026d55ddcd76e29e87865c08cbe2d0104e2b3153a523c529de584759379d3d \
+    --hash=sha256:7e68047bedb04c1c25bba9901ea46ff60d5eaac2d71b1f2161f33107e2b368eb \
+    --hash=sha256:7fadb29b77fc14a0dd81304ed73c828c3e5cde0016c7e668a86a3e0dfc9f3af3 \
+    --hash=sha256:822dbd184d4a9804df5a7d5335a68cf7662930e70b8c1bc976645d1509f9a9d6 \
+    --hash=sha256:af98c5a958f9c37404bd4eef2f920b94874507e146ed6ee559f185b8809c44cc \
+    --hash=sha256:bf4ec4980bec1e0e24e5075f449d014011527ae0055884c7e3abc6a99cd2c7f1 \
+    --hash=sha256:c7b243408ea43755f3a21a0a08e5c5ae30eddb4c58a80f415ca6b118816e60aa \
+    --hash=sha256:cdb5563c1726c85fb201be383168f8c866032db95e1095600806625b3a648cb7 \
+    --hash=sha256:d5326ab70a6db8e856d59ad4cb72741124950cbbf32e7b70e30166ba7bbf61dd \
+    --hash=sha256:e86aaeaa3221a278c66d3d673b297232947d873773d61ca3ee0e28b2ff027179 \
+    --hash=sha256:e8c8387e5d9dff80e7daf961df357c80e694e942d9755f3ad77d69b0957b8e3f \
+    --hash=sha256:e971c1c667007f9f2b397ffa80fa8e1e0adccff336e5e77e74cb5f22868bee87 \
+    --hash=sha256:e9f6f4c0b27401d14c483c622bc5105eff3911634d576bbdf6695b9a7c1ba741 \
+    --hash=sha256:f0b343a1d3989547024377c2ba0dca9c74a2428ad6ed24283c213af8dbb0710b \
+    --hash=sha256:fbb7d683fa6bdecaa106e8368aa973ecc0ddb79a9eaeb4b821591ecd07e9e03c
+    # via -r requirements-build.in
+mypy-extensions==1.0.0 \
+    --hash=sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d \
+    --hash=sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782
+    # via
+    #   -r requirements-build.in
+    #   mypy
+packaging==24.2 \
+    --hash=sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759 \
+    --hash=sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f
     # via
     #   -r requirements-build.in
     #   hatch-requirements-txt
@@ -145,6 +185,7 @@ typing-extensions==4.12.2 \
     --hash=sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8
     # via
     #   -r requirements-build.in
+    #   mypy
     #   setuptools-scm
 wheel==0.44.0 \
     --hash=sha256:2376a90c98cc337d18623527a97c31797bd02bad0033d41547043a1cbfbe448f \
