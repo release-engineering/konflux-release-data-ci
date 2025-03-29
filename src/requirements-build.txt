@@ -134,9 +134,9 @@ setuptools-scm==7.1.0 \
     # via
     #   -r requirements-build.in
     #   hatch-vcs
-trove-classifiers==2024.9.12 \
-    --hash=sha256:4b46b3e134a4d01999ac5bc6e528afcc10cc48f0f724f185f267e276005768f4 \
-    --hash=sha256:f88a27a892891c87c5f8bbdf110710ae9e0a4725ea8e0fb45f1bcadf088a491f
+trove-classifiers==2025.3.19.19 \
+    --hash=sha256:5fc02770ecd81588a605ac98b9d85d50a5a3f9daa30af2a6b1361a1999d75d07 \
+    --hash=sha256:98e9d396fe908d5f43b7454fa4c43d17cd0fdadf046f45fb38a5e3af8d959ecd
     # via
     #   -r requirements-build.in
     #   hatchling
