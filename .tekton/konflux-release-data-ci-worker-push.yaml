@@ -7,8 +7,13 @@ metadata:
     build.appstudio.redhat.com/target_branch: "{{target_branch}}"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression:
-      event == "push" && target_branch
-      == "main"
+      event == "push" && target_branch == "main"
+      event == "push" && target_branch == "main" && (
+        ".tekton/konflux-release-data-ci-worker-push.yaml".pathChanged() ||
+        "Containerfile".pathChanged() ||
+        "rpms.lock.yaml".pathChanged() ||
+        "requirements.txt".pathChanged()
+      )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: konflux-release-data-ci
@@ -25,11 +30,11 @@ spec:
     - name: output-image
       value: quay.io/redhat-user-workloads/releng-dev-tenant/konflux-release-data-ci/konflux-release-data-ci-worker:{{revision}}
     - name: dockerfile
-      value: ./src/Containerfile
+      value: ./Containerfile
     - name: path-context
-      value: src
+      value: .
     - name: prefetch-input
-      value: '{"packages": [{"type": "pip", "path": "src"}, {"type": "rpm", "path": "src"}]}'
+      value: '{"packages": [{"type": "pip", "path": "."}, {"type": "rpm", "path": "."}]}'
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.
