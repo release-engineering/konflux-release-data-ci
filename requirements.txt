@@ -246,6 +246,12 @@ flake8==7.2.0 \
 flit-core==3.12.0 \
     --hash=sha256:18f63100d6f94385c6ed57a72073443e1a71a4acb4339491615d0f16d6ff01b2 \
     --hash=sha256:e7a0304069ea895172e3c7bb703292e992c5d1555dd1233ab7b5621b5b69e62c
+    # via
+    #   -r requirements.in
+    #   flit-scm
+flit-scm==1.7.0 \
+    --hash=sha256:961bd6fb24f31bba75333c234145fff88e6de0a90fc0f7e5e7c79deca69f6bb2 \
+    --hash=sha256:9e864caa8a63f708f5bb2f1b5b53eedcd4da75ec2cc6221a64cea7aa5c9eae1a
     # via -r requirements.in
 ghp-import==2.1.0 \
     --hash=sha256:8337dd7b50877f163d4c0289bc1f1c7f127550241988d568c1db512c4324a619 \
@@ -740,7 +746,9 @@ ruamel-yaml-clib==0.2.12 \
 setuptools-scm==8.2.0 \
     --hash=sha256:136e2b1d393d709d2bcf26f275b8dec06c48b811154167b0fd6bb002aad17d6d \
     --hash=sha256:a18396a1bc0219c974d1a74612b11f9dce0d5bd8b1dc55c65f6ac7fd609e8c28
-    # via hatch-vcs
+    # via
+    #   flit-scm
+    #   hatch-vcs
 six==1.16.0 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
