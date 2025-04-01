@@ -1,3 +1,13 @@
+black
+dogpile.cache
+fastjsonschema
+flake8
+GitPython
+isort
 mkdocs
-mkdocstrings[python]
 mkdocs-material
+mkdocstrings[python]
+pytest
+tox
+tox-direct
+yamllint

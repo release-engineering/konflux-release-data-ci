@@ -1,14 +1,14 @@
 FROM quay.io/konflux-ci/yq@sha256:4ea9ee652a035c341d00424ff6ebaf757f4b9391e016d3fdb542981bf0f537ef as yq
 
-FROM quay.io/fedora/fedora:40
+FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:a1804302f6f53e04cc1c6b20bc2204d5c9ae6e5a664174b38fbeeb30f7983d4e
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install tox git ruby gcc python-flake8 python-isort black yamllint pytest python-fastjsonschema python-dogpile-cache python-GitPython; dnf clean all
+RUN dnf -y install git ruby gcc python3-pip && dnf clean all
 
 COPY requirements.txt requirements-build.txt ./
 
-RUN pip install -r requirements-build.txt -r requirements.txt
+RUN pip3 install -r requirements-build.txt -r requirements.txt
 
 
 # Because Cachi2 doesn't support ruby, we've got to gem install it for now

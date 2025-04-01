@@ -1,21 +1,13 @@
 contentOrigin:
   # Define at least one source of packages, but you can have as many as you want.
   repofiles:
-    - fedora.repo
+    - ubi.repo
 
 packages:
-  - tox
   - git
   - ruby
   - gcc
-  - python-flake8
-  - python-isort
-  - python-fastjsonschema
-  - python-dogpile-cache
-  - python-GitPython
-  - black
-  - yamllint
-  - pytest
+  - python3-pip
 
 arches:
   - x86_64
