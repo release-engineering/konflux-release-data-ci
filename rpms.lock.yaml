@@ -529,6 +529,13 @@ arches:
     name: perl-vars
     evr: 1.05-481.el9
     sourcerpm: perl-5.32.1-481.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/python3-devel-3.9.21-1.el9_5.x86_64.rpm
+    repoid: ubi-9-for-x86_64-appstream-rpms
+    size: 254808
+    checksum: sha256:25ed5e82d36588dffdf4dbe9351a4682a719a850377d19a708559197eda59805
+    name: python3-devel
+    evr: 3.9.21-1.el9_5
+    sourcerpm: python3.9-3.9.21-1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/python3-pip-21.3.1-1.el9.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 2133958
@@ -1049,4 +1056,10 @@ arches:
     checksum: sha256:cb9e0cca3bd8dc24798cf1fb333d574774ce8288598331d44994d768f33648d3
     name: python-pip
     evr: 21.3.1-1.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/p/python3.9-3.9.21-1.el9_5.src.rpm
+    repoid: ubi-9-for-x86_64-baseos-source-rpms
+    size: 20273210
+    checksum: sha256:ef60fdf847c03312ab61602eb4c4aeac5f04bcc07b7a94178e71d4f5916b8345
+    name: python3.9
+    evr: 3.9.21-1.el9_5
   module_metadata: []
