@@ -36,6 +36,8 @@ packaging>=23.2
 pathspec>=0.10.1
 pdm-backend
 pluggy>=1.0.0
+ruamel.yaml
+ruamel.yaml.clib
 tomli<=2.0.2
 trove-classifiers
 trove_classifiers>=2023.10.18
