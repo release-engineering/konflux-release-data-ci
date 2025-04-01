@@ -6,9 +6,9 @@ COPY --from=yq /usr/bin/yq /usr/bin/yq
 
 RUN dnf -y install git ruby gcc python3-pip && dnf clean all
 
-COPY requirements.txt requirements-build.txt ./
+COPY requirements.txt ./
 
-RUN pip3 install -r requirements-build.txt -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 
 # Because Cachi2 doesn't support ruby, we've got to gem install it for now
