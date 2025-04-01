@@ -9,6 +9,7 @@ packages:
   - gcc
   - python3-devel
   - python3-pip
+  - rust
 
 arches:
   - x86_64
