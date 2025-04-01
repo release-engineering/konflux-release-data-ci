@@ -21,6 +21,7 @@ flit_core<4,>=3.2
 flit_core>=3.3
 exceptiongroup
 hatch-nodejs-version>=0.3.0
+hatch-fancy-pypi-readme
 hatch-requirements-txt
 hatch-vcs==0.4.0
 hatch-vcs>=0.4
