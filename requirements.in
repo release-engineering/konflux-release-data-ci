@@ -7,6 +7,8 @@ isort
 mkdocs
 mkdocs-material
 mkdocstrings[python]
+poetry-core
+pylint
 pytest
 pyyaml
 tox
