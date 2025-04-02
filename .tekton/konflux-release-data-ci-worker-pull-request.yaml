@@ -36,7 +36,7 @@ spec:
     - name: path-context
       value: .
     - name: prefetch-input
-      value: '{"packages": [{"type": "pip", "path": "."}, {"type": "rpm", "path": "."}]}'
+      value: '{"packages": [{"type": "pip", "path": ".", "allow_binary": true}, {"type": "rpm", "path": "."}]}'
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.
