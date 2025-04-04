@@ -4,7 +4,7 @@ FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:a1804302f6f53e04cc1c6b20b
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
-RUN dnf -y install git ruby gcc python3-devel python3-pip && dnf clean all
+RUN dnf -y install git ruby gcc python-unversioned-command python3-devel python3-pip && dnf clean all
 
 COPY requirements.txt ./
 
