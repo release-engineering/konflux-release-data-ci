@@ -529,6 +529,13 @@ arches:
     name: perl-vars
     evr: 1.05-481.el9
     sourcerpm: perl-5.32.1-481.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.21-1.el9_5.noarch.rpm
+    repoid: ubi-9-for-x86_64-appstream-rpms
+    size: 10813
+    checksum: sha256:9409fab1b252ea2717b593cdc96227ead9fdf7040c4d5391f33352e3d193842e
+    name: python-unversioned-command
+    evr: 3.9.21-1.el9_5
+    sourcerpm: python3.9-3.9.21-1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/python3-devel-3.9.21-1.el9_5.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 254808
