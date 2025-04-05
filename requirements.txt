@@ -446,9 +446,9 @@ mkdocstrings[python]==0.26.1 \
     # via
     #   -r requirements.in
     #   mkdocstrings-python
-mkdocstrings-python==1.11.1 \
-    --hash=sha256:8824b115c5359304ab0b5378a91f6202324a849e1da907a3485b59208b797322 \
-    --hash=sha256:a21a1c05acef129a618517bb5aae3e33114f569b11588b1e7af3e9d4061a71af
+mkdocstrings-python==1.16.10 \
+    --hash=sha256:63bb9f01f8848a644bdb6289e86dc38ceddeaa63ecc2e291e3b2ca52702a6643 \
+    --hash=sha256:f9eedfd98effb612ab4d0ed6dd2b73aff6eba5215e0a65cea6d877717f75502e
     # via mkdocstrings
 mypy-extensions==1.0.0 \
     --hash=sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d \
