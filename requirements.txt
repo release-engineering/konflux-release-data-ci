@@ -776,13 +776,6 @@ setuptools-scm==7.1.0 \
     #   -r requirements.in
     #   flit-scm
     #   hatch-vcs
-shellcheck-py==0.10.0.1 \
-    --hash=sha256:390826b340b8c19173922b0da5ef7b66ef34d4d087dc48aad3e01f7e77e164d9 \
-    --hash=sha256:48f08965cafbb3363b265c4ef40628ffced19cb6fc7c4bb5ce72d32cbcfb4bb9 \
-    --hash=sha256:8f3bf12ee6d0845dd5ac1a7bac8c4b1fec0379e115950986883c9488af40ada7 \
-    --hash=sha256:be73a16931c05f79643ff74b6519d1e1203b394583ab8c68a48a8e7f257d1090 \
-    --hash=sha256:c1c266f7f54cd286057c592ead3095f93d123acdcabf048879a7d8900c3aac7b
-    # via -r requirements.in
 six==1.16.0 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
