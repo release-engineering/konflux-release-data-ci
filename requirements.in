@@ -11,6 +11,7 @@ poetry-core
 pylint
 pytest
 pyyaml
+shellcheck-py
 tox
 tox-direct
 types-pyyaml
