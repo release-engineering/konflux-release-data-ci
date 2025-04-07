@@ -40,3 +40,4 @@ trove_classifiers
 typing-extensions
 wheel
 setuptools_scm<8.0
+setuptools-download
