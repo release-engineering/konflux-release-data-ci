@@ -1,6 +1,6 @@
 FROM quay.io/konflux-ci/yq@sha256:4ea9ee652a035c341d00424ff6ebaf757f4b9391e016d3fdb542981bf0f537ef as yq
 
-FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:a1804302f6f53e04cc1c6b20bc2204d5c9ae6e5a664174b38fbeeb30f7983d4e
+FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:ea57285741f007e83f2ee20423c20b0cbcce0b59cc3da027c671692cc7efe4dd
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
