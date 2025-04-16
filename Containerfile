@@ -1,8 +1,10 @@
 FROM quay.io/konflux-ci/yq@sha256:4ea9ee652a035c341d00424ff6ebaf757f4b9391e016d3fdb542981bf0f537ef as yq
+FROM registry.redhat.io/openshift4/ose-cli-artifacts-rhel9:v4.17.0-202504091537.p0.g0000b3e.assembly.stream.el9 as oc
 
 FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:a1804302f6f53e04cc1c6b20bc2204d5c9ae6e5a664174b38fbeeb30f7983d4e
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
+COPY --from=oc /usr/bin/oc /usr/bin/oc
 
 RUN dnf -y install git ruby gcc python-unversioned-command python3-devel python3-pip && dnf clean all
 
