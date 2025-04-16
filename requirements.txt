@@ -811,9 +811,9 @@ trove-classifiers==2025.3.19.19 \
     # via
     #   -r requirements.in
     #   hatchling
-types-pyyaml==6.0.12.20250326 \
-    --hash=sha256:5e2d86d8706697803f361ba0b8188eef2999e1c372cd4faee4ebb0844b8a4190 \
-    --hash=sha256:961871cfbdc1ad8ae3cb6ae3f13007262bcfc168adc513119755a6e4d5d7ed65
+types-PyYAML==6.0.12.20250402 \
+    --hash=sha256:652348fa9e7a203d4b0d21066dfb00760d3cbd5a15ebb7cf8d33c88a49546681 \
+    --hash=sha256:d7c13c3e6d335b6af4b0122a01ff1d270aba84ab96d1a1a1063ecba3e13ec075
     # via -r requirements.in
 typing-extensions==4.13.0 \
     --hash=sha256:0a4ac55a5820789d87e297727d229866c9650f6521b64206413c4fbada24d95b \
