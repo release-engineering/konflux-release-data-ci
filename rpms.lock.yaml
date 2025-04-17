@@ -634,6 +634,13 @@ arches:
     name: binutils-gold
     evr: 2.35.2-54.el9
     sourcerpm: binutils-2.35.2-54.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/d/diffutils-3.7-12.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 411559
+    checksum: sha256:2d4c4fdfc10215af3c957c24995b79a26e27e6d76de4ed1f5198d25bf7ef9671
+    name: diffutils
+    evr: 3.7-12.el9
+    sourcerpm: diffutils-3.7-12.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/e/elfutils-debuginfod-client-0.191-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 39913
@@ -979,6 +986,12 @@ arches:
     checksum: sha256:b9ac416d943868173a793c8f54801b595b2825c12228fdb5c656cd2d83922823
     name: binutils
     evr: 2.35.2-54.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/d/diffutils-3.7-12.el9.src.rpm
+    repoid: ubi-9-for-x86_64-baseos-source-rpms
+    size: 1477522
+    checksum: sha256:7a10e2d961f8d755f8ccf51a1fb7f68687671b82d9486e4b8d648561af1a185e
+    name: diffutils
+    evr: 3.7-12.el9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/e/elfutils-0.191-4.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 9335734
