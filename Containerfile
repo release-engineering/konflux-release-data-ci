@@ -6,7 +6,14 @@ FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:ea57285741f007e83f2ee2042
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 COPY --from=oc /usr/bin/oc /usr/bin/oc
 
-RUN dnf -y install git ruby gcc python-unversioned-command python3-devel python3-pip && dnf clean all
+RUN dnf -y install git \
+    ruby \
+    gcc \
+    python-unversioned-command \
+    python3-devel \
+    python3-pip \
+    diffutils \
+    && dnf clean all
 
 COPY requirements.txt ./
 
