@@ -38,9 +38,9 @@ black==25.1.0 \
     --hash=sha256:ea0213189960bda9cf99be5b8c8ce66bb054af5e9e861249cd23471bd7b0b3ba \
     --hash=sha256:f3df5f1bf91d36002b0a75389ca8663510cf0531cca8aa5c1ef695b46d98655f
     # via -r requirements.in
-calver==2025.3.31 \
-    --hash=sha256:07511edf5e7fa75ae97445c8c5921240e0fe62937289a3ebe6963eddd3c691b6 \
-    --hash=sha256:255d1a70bba8f97dc1eee3af4240ed35980508da69257feef94c79e5c6545fc7
+calver==2025.4.17 \
+    --hash=sha256:460702737d620f5c3d4175450485180a1b7f7a422c5db0e6af3e655c7395ec7e \
+    --hash=sha256:82f0efe7f71c28167af5ed9712e0d9d6272eb0817acbbf852b8b2404666a0cf2
     # via -r requirements.in
 certifi==2024.8.30 \
     --hash=sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8 \
