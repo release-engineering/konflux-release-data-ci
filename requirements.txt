@@ -487,9 +487,9 @@ pbr==6.1.1 \
     --hash=sha256:38d4daea5d9fa63b3f626131b9d34947fd0c8be9b05a29276870580050a25a76 \
     --hash=sha256:93ea72ce6989eb2eed99d0f75721474f69ad88128afdef5ac377eb797c4bf76b
     # via stevedore
-pdm-backend==2.4.3 \
-    --hash=sha256:07c7e7ae9dc7bbaf9a470e8d2cc59e987bf2897c2f27a7efbde8f1534c0ea4ee \
-    --hash=sha256:dbd9047a7ac10d11a5227e97163b617ad5d665050476ff63867d971758200728
+pdm-backend==2.4.4 \
+    --hash=sha256:87f85f65c208956a8adbcc01b8878ab29a97d0494cde56b733d961d4b5a48acf \
+    --hash=sha256:f72551eeb319f74ca25856c24fb4026684eeb0dddd9df68482901ab0dc481258
     # via -r requirements.in
 platformdirs==4.3.7 \
     --hash=sha256:a03875334331946f13c549dbd8f4bac7a13a50a895a0eb1e8c6a8ace80d40a94 \
