@@ -273,9 +273,9 @@ gitpython==3.1.44 \
     --hash=sha256:9e0e10cda9bed1ee64bc9a6de50e7e38a9c9943241cd7f585f6df3ed28011110 \
     --hash=sha256:c87e30b26253bf5418b01b0660f818967f3c503193838337fe5e573331249269
     # via -r requirements.in
-griffe==1.7.2 \
-    --hash=sha256:1ed9c2e338a75741fc82083fe5a1bc89cb6142efe126194cc313e34ee6af5423 \
-    --hash=sha256:98d396d803fab3b680c2608f300872fd57019ed82f0672f5b5323a9ad18c540c
+griffe==1.7.3 \
+    --hash=sha256:52ee893c6a3a968b639ace8015bec9d36594961e156e23315c8e8e51401fa50b \
+    --hash=sha256:c6b3ee30c2f0f17f30bcdef5068d6ab7a2a4f1b8bf1a3e74b56fffd21e1c5f75
     # via mkdocstrings-python
 hatch-fancy-pypi-readme==24.1.0 \
     --hash=sha256:26ec5c7cfd9f604eff0ae6c927d7b197b220706dca203f0aad1928abc81f3a46 \
