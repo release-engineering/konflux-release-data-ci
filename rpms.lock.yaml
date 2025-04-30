@@ -60,13 +60,13 @@ arches:
     name: glibc-headers
     evr: 2.34-125.el9_5.8
     sourcerpm: glibc-2.34-125.el9_5.8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.38.1.el9_5.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.40.1.el9_5.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3938453
-    checksum: sha256:24dc9ef1eb84a8e8747aa74dbad7351d55ef7570e3de832255af72b0b680eca0
+    size: 3940713
+    checksum: sha256:1f709ddeafe6ac30df39fdf00c2d4b4e46e19c0c9c6276a70ed6f84ccaae4191
     name: kernel-headers
-    evr: 5.14.0-503.38.1.el9_5
-    sourcerpm: kernel-5.14.0-503.38.1.el9_5.src.rpm
+    evr: 5.14.0-503.40.1.el9_5
+    sourcerpm: kernel-5.14.0-503.40.1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66075
@@ -648,34 +648,6 @@ arches:
     name: elfutils-debuginfod-client
     evr: 0.191-4.el9
     sourcerpm: elfutils-0.191-4.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-125.el9_5.8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2061981
-    checksum: sha256:28901adf838af054d92f6788d01576c708de9a31ca206e629eace62e62f28329
-    name: glibc
-    evr: 2.34-125.el9_5.8
-    sourcerpm: glibc-2.34-125.el9_5.8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-125.el9_5.8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 305641
-    checksum: sha256:de4ed13bc7b660510cd6087e29b876ccde5ff9021c555b32ed5e1a0fbbdaf1d6
-    name: glibc-common
-    evr: 2.34-125.el9_5.8
-    sourcerpm: glibc-2.34-125.el9_5.8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-125.el9_5.8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 667197
-    checksum: sha256:5664cfeffc35e2f71835d04aa6b51092cdd071d60cc112c33f76ddc8c599060b
-    name: glibc-langpack-en
-    evr: 2.34-125.el9_5.8
-    sourcerpm: glibc-2.34-125.el9_5.8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-125.el9_5.8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 13041
-    checksum: sha256:9b5e20fd5bd13c7c5bdd5491e9a450a8c4fc79e607350080ec082b4b19492cc0
-    name: glibc-minimal-langpack
-    evr: 2.34-125.el9_5.8
-    sourcerpm: glibc-2.34-125.el9_5.8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 1133828
