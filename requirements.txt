@@ -835,9 +835,9 @@ tox-direct==0.4 \
     --hash=sha256:33bb6627db50c1c1760f889410bf77107e4858cf15a0f4532442fd690b6284c8 \
     --hash=sha256:d80968dfbaf99198d7fa77fb2c20786f6bcf584000be96217a4ffd74dd4b3699
     # via -r requirements.in
-trove-classifiers==2025.3.19.19 \
-    --hash=sha256:5fc02770ecd81588a605ac98b9d85d50a5a3f9daa30af2a6b1361a1999d75d07 \
-    --hash=sha256:98e9d396fe908d5f43b7454fa4c43d17cd0fdadf046f45fb38a5e3af8d959ecd
+trove-classifiers==2025.5.1.12 \
+    --hash=sha256:28d24c3d043dc6b0459813d6bf4a231e788509b55ee3d54ba08ce72638031182 \
+    --hash=sha256:9ed1030cfcc8d0eb944155f05b4add4efaceba4ba6aca3f9f348a21f1e700404
     # via
     #   -r requirements.in
     #   hatchling
