@@ -277,9 +277,9 @@ griffe==1.7.3 \
     --hash=sha256:52ee893c6a3a968b639ace8015bec9d36594961e156e23315c8e8e51401fa50b \
     --hash=sha256:c6b3ee30c2f0f17f30bcdef5068d6ab7a2a4f1b8bf1a3e74b56fffd21e1c5f75
     # via mkdocstrings-python
-hatch-fancy-pypi-readme==24.1.0 \
-    --hash=sha256:26ec5c7cfd9f604eff0ae6c927d7b197b220706dca203f0aad1928abc81f3a46 \
-    --hash=sha256:44dd239f1a779b9dcf8ebc9401a611fd7f7e3e14578dcf22c265dfaf7c1514b8
+hatch-fancy-pypi-readme==25.1.0 \
+    --hash=sha256:9c58ed3dff90d51f43414ce37009ad1d5b0f08ffc9fc216998a06380f01c0045 \
+    --hash=sha256:ce0134c40d63d874ac48f48ccc678b8f3b62b8e50e9318520d2bffc752eedaf3
     # via -r requirements.in
 hatch-nodejs-version==0.3.2 \
     --hash=sha256:8a7828d817b71e50bbbbb01c9bfc0b329657b7900c56846489b9c958de15b54c \
