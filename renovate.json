@@ -2,6 +2,9 @@
   "automerge": true,
   "updateNotScheduled": false,
   "schedule": [
-    "after 5pm on sunday"
+    "after 5pm on friday and saturday"
+  ],
+  "extends": [
+    "github>konflux-ci/mintmaker-presets:group-python-requirements"
   ]
 }
