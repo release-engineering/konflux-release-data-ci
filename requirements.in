@@ -3,6 +3,7 @@ dogpile.cache
 fastjsonschema
 flake8
 GitPython
+https://github.com/egen/gitlab-codeowners-linter/archive/refs/tags/v1.0.2.zip # v1.0.2
 isort
 mkdocs
 mkdocs-material
