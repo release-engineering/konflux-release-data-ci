@@ -35,6 +35,7 @@ pdm-backend
 pluggy<=1.5.0
 charset-normalizer<=3.3.2
 zipp<=3.21.0
+click<=8.1.7
 ruamel.yaml
 ruamel.yaml.clib
 tomli
