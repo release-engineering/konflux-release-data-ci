@@ -32,7 +32,7 @@ importlib-metadata
 packaging
 pathspec
 pdm-backend
-pluggy
+pluggy<=1.5.0
 ruamel.yaml
 ruamel.yaml.clib
 tomli
