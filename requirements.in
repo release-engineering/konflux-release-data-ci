@@ -3,6 +3,7 @@ dogpile.cache
 fastjsonschema
 flake8
 GitPython
+https://github.com/egen/gitlab-codeowners-linter/archive/refs/tags/v1.0.2.zip # v1.0.2
 isort
 mkdocs
 mkdocs-material
@@ -31,7 +32,10 @@ importlib-metadata
 packaging
 pathspec
 pdm-backend
-pluggy
+pluggy<=1.5.0
+charset-normalizer<=3.3.2
+zipp<=3.21.0
+click<=8.1.7
 ruamel.yaml
 ruamel.yaml.clib
 tomli
