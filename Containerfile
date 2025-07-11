@@ -19,6 +19,9 @@ COPY requirements.txt ./
 
 RUN pip3 install -r requirements.txt
 
+#RUN curl -sS https://certs.corp.redhat.com/certs/Current-IT-Root-CAs.pem > /etc/pki/ca-trust/source/anchors/Current-IT-Root-CAs.pem
+RUN cp /cachi2/output/deps/generic/Current-IT-Root-CAs.pem /etc/pki/ca-trust/source/anchors/Current-IT-Root-CAs.pem
+RUN update-ca-trust
 
 # Because Cachi2 doesn't support ruby, we've got to gem install it for now
 # Can look into building it from source later, although without prefetch

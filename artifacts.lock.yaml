@@ -1,0 +1,7 @@
+---
+metadata:
+  version: "1.0"
+artifacts:
+  - download_url: "https://certs.corp.redhat.com/certs/Current-IT-Root-CAs.pem"
+    checksum: "sha256:211140fe9c28ddbe6a83eecf30956137134464c9fd5bbf1dba12c0b70d1bc36d"
+    filename: "Current-IT-Root-CAs.pem"
