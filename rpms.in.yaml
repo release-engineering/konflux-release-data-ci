@@ -11,6 +11,7 @@ packages:
   - python3-devel
   - python3-pip
   - diffutils
+  - krb5-devel
 
 arches:
   - x86_64
