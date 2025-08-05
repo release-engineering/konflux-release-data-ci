@@ -795,13 +795,27 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9_6.2.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 420158
-    checksum: sha256:1b5e5805334bc78c977d7acf02256021a9216e26348a5383cf86dfb0b0c91101
+    size: 416227
+    checksum: sha256:4f1dbaed64ecaf650d47613b86ea787d92b7fad23e8a75e8b86cc436ee949f49
     name: ncurses
-    evr: 6.2-10.20210508.el9
-    sourcerpm: ncurses-6.2-10.20210508.el9.src.rpm
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/ncurses-base-6.2-10.20210508.el9_6.2.noarch.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 97903
+    checksum: sha256:13491d7ce61e0c5ef82451936c68acf5d04dc437a624e0f74b89904bc0fbe330
+    name: ncurses-base
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/ncurses-libs-6.2-10.20210508.el9_6.2.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 336762
+    checksum: sha256:519ec674b3ff4efb7ce31f1f87584f5409d341b6dde543fcba7dac89dfc05e1b
+    name: ncurses-libs
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 474534
@@ -1186,12 +1200,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.2-10.20210508.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.2-10.20210508.el9_6.2.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 3587693
-    checksum: sha256:0aa2d8068439cb17c73b678a8c9290e3e9aef0011b7aaa9fa5b24739297b22e4
+    size: 3587058
+    checksum: sha256:2c3309af9b6637047a8dec3f7e84c03da6fa4ab9570d78cad92c045bfd0fa1e3
     name: ncurses
-    evr: 6.2-10.20210508.el9
+    evr: 6.2-10.20210508.el9_6.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/o/openssh-8.7p1-45.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 2415807
