@@ -1,4 +1,5 @@
 black
+docutils
 dogpile.cache
 fastjsonschema
 flake8
