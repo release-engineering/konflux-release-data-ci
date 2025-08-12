@@ -9,9 +9,15 @@ metadata:
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "main" &&
       ( ".tekton/konflux-release-data-ci-worker-push.yaml".pathChanged() || 
+      ".tekton/ci-checks.yaml".pathChanged() ||
       "Containerfile".pathChanged() || 
       "rpms.lock.yaml".pathChanged() || 
-      "requirements.txt".pathChanged() )
+      "requirements.txt".pathChanged() ||
+      "tools/rbac-validator.go".pathChanged() ||
+      "tools/rbac-validator_test.go".pathChanged() ||
+      "tools/Makefile".pathChanged() ||
+      "tools/.golangci.yml".pathChanged() ||
+      "tools/testdata/**".pathChanged() )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: konflux-release-data-ci
@@ -35,7 +41,7 @@ spec:
   - name: path-context
     value: .
   - name: prefetch-input
-    value: '{"packages": [{"type": "pip", "path": "."}, {"type": "rpm", "path": "."}]}'
+    value: '{"packages": [{"type": "pip", "path": "."}, {"type": "rpm", "path": "."}, {"type": "gomod", "path": "tools"}]}'
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
@@ -211,6 +217,22 @@ spec:
         workspace: git-auth
       - name: netrc
         workspace: netrc
+    - name: ci-checks
+      params:
+      - name: SOURCE_ARTIFACT
+        value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
+      - name: WORKING_DIR
+        value: "tools"
+      runAfter:
+      - prefetch-dependencies
+      taskRef:
+        kind: Task
+        name: ci-checks
+      when:
+      - input: $(tasks.init.results.build)
+        operator: in
+        values:
+        - "true"
     - matrix:
         params:
         - name: PLATFORM

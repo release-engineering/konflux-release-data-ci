@@ -1,0 +1,39 @@
+# Reference role used for testing - based on konflux-admin-user-actions
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: konflux-admin-user-actions-reference
+  annotations:
+    description: "Reference admin role for testing - defines maximum allowed permissions"
+rules:
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications", "components", "environments", "snapshots", "componentdetectionqueries",
+              "gitopsdeployments", "gitopsdeploymentsyncruns", "promotionruns", "releaseplanadmissions", 
+              "releaseplans", "releases", "snapshotenvironmentbindings", "spiaccesschecks", 
+              "spiaccesstokenbindings", "spiaccesstokens", "spifilebindings", "spifilecontentproviders", 
+              "spifilecontentrequest"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: ["tekton.dev"]
+  resources: ["pipelineruns", "taskruns"]
+  verbs: ["get", "list", "watch", "create", "update", "patch"]  # Note: no delete
+- apiGroups: [""]
+  resources: ["secrets", "configmaps"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: ["projctl.konflux.dev"]
+  resources: ["projectdevelopmentstreams"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: ["rbac.authorization.k8s.io"]
+  resources: ["roles", "rolebindings"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: [""]
+  resources: ["serviceaccounts"]
+  verbs: ["get", "list", "watch", "create", "update", "patch"]
+- apiGroups: [""]
+  resources: ["pods", "pods/log"]
+  verbs: ["get", "list", "watch"]  # Note: read-only for pods
+- apiGroups: ["batch"]
+  resources: ["jobs", "cronjobs"]
+  verbs: ["get", "list", "watch"]
+- apiGroups: ["results.tekton.dev"]
+  resources: ["results", "records", "logs"]
+  verbs: ["get", "list"]
