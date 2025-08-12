@@ -8,9 +8,11 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "main" && ( "src/***".pathChanged() || ".tekton/konflux-release-data-ci-worker-pull-request.yaml".pathChanged()
-      || "src/Containerfile".pathChanged() )
+    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "main" && 
+      ( ".tekton/konflux-release-data-ci-worker-pull-request.yaml".pathChanged() || 
+      "Containerfile".pathChanged() || 
+      "rpms.lock.yaml".pathChanged() || 
+      "requirements.txt".pathChanged() )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: konflux-release-data-ci
@@ -32,9 +34,11 @@ spec:
     value:
     - linux/x86_64
   - name: dockerfile
-    value: src/Containerfile
+    value: ./Containerfile
   - name: path-context
-    value: src
+    value: .
+  - name: prefetch-input
+    value: '{"packages": [{"type": "pip", "path": "."}, {"type": "rpm", "path": "."}]}'
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
@@ -84,7 +88,7 @@ spec:
       description: Skip checks against built image
       name: skip-checks
       type: string
-    - default: "false"
+    - default: "true"
       description: Execute the build with network isolation
       name: hermetic
       type: string
@@ -97,7 +101,7 @@ spec:
         1h, 2d, 3w for hours, days, and weeks, respectively.
       name: image-expires-after
       type: string
-    - default: "false"
+    - default: "true"
       description: Build a source image.
       name: build-source-image
       type: string
