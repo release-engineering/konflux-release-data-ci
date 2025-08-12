@@ -1,0 +1,14 @@
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: namespaced-contributor
+  namespace: my-namespace
+  annotations:
+    description: "Namespaced contributor role - should be valid subset of admin"
+rules:
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications", "components"]
+  verbs: ["get", "list", "watch", "create", "update", "patch"]
+- apiGroups: [""]
+  resources: ["configmaps", "secrets"]
+  verbs: ["get", "list", "watch"]

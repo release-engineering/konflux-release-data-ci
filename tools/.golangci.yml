@@ -1,0 +1,33 @@
+
+run:
+  timeout: 5m
+
+linters:
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+    - unused
+    - gosec
+    - ineffassign
+    - misspell
+    - gocyclo
+    - revive
+
+linters-settings:
+  gocyclo:
+    min-complexity: 10
+
+issues:
+  exclude-use-default: false
+  exclude-rules:
+    # Exclude some linters from running on tests files
+    - path: _test\.go
+      linters:
+        - gocyclo
+        - errcheck
+        - gosec
+    # Allow file reading in test utilities (safe in test context)
+    - text: "G304"
+      linters:
+        - gosec

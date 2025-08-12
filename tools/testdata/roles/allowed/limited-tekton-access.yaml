@@ -1,0 +1,13 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: limited-tekton-access
+  annotations:
+    description: "Limited tekton access within admin bounds"
+rules:
+- apiGroups: ["tekton.dev"]
+  resources: ["pipelineruns"]
+  verbs: ["get", "list", "watch", "create", "update"]  # No patch/delete, within admin bounds
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications"]
+  verbs: ["get", "list", "watch"]
