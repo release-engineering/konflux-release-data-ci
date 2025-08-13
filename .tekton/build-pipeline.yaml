@@ -266,6 +266,7 @@ spec:
       - $(tasks.build-images.results.IMAGE_REF[*])
     runAfter:
     - build-images
+    - ci-checks # This is just needed for improved visualization.
     taskRef:
       params:
       - name: name
