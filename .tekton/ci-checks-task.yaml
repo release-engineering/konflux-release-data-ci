@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1
 kind: Task
 metadata:
-  name: ci-checks
+  name: ci-checks-task
   labels:
     app.kubernetes.io/version: "0.1"
   annotations:
