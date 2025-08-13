@@ -1,0 +1,140 @@
+apiVersion: tekton.dev/v1
+kind: Task
+metadata:
+  name: ci-checks-task
+  labels:
+    app.kubernetes.io/version: "0.1"
+  annotations:
+    tekton.dev/pipelines.minVersion: "0.12.1"
+    tekton.dev/categories: CI
+    tekton.dev/tags: ci,golang,rbac,validation
+    tekton.dev/displayName: "CI Checks"
+    tekton.dev/platforms: "linux/amd64,linux/arm64"
+spec:
+  description: >-
+    This task runs CI checks for the RBAC validator tool including format checking,
+    linting, testing, and build verification. It uses the trusted artifact pattern
+    to retrieve source code.
+  params:
+    - name: SOURCE_ARTIFACT
+      description: The Trusted Artifact URI pointing to the application source code
+      type: string
+    - name: WORKING_DIR
+      description: Working directory for the CI checks
+      type: string
+      default: "tools"
+    - name: GO_VERSION
+      description: Go version to use for building and testing
+      type: string
+      default: "1.22"
+  results:
+    - name: TEST_OUTPUT
+      description: Output from the test execution
+    - name: BUILD_STATUS
+      description: Status of the build process
+  volumes:
+    - name: workdir
+      emptyDir: {}
+  stepTemplate:
+    volumeMounts:
+      - mountPath: /var/workdir
+        name: workdir
+  steps:
+    - name: use-trusted-artifact
+      image: quay.io/redhat-appstudio/build-trusted-artifacts:latest@sha256:4e39fb97f4444c2946944482df47b39c5bbc195c54c6560b0647635f553ab23d
+      args:
+        - use
+        - $(params.SOURCE_ARTIFACT)=/var/workdir/source
+      volumeMounts:
+        - mountPath: /var/workdir
+          name: workdir
+    
+    - name: ci-checks
+      image: registry.access.redhat.com/ubi9/go-toolset:1.24.4-1754467841@sha256:3f552f246b4bd5bdfb4da0812085d381d00d3625769baecaed58c2667d344e5c
+      workingDir: /var/workdir/source/$(params.WORKING_DIR)
+      env:
+        - name: GOCACHE
+          value: /var/workdir/.cache/go-build
+        - name: GOMODCACHE
+          value: /var/workdir/.cache/go-mod
+        - name: CGO_ENABLED
+          value: "0"
+      script: |
+        #!/bin/bash
+        set -uo pipefail
+        
+        # Track overall success
+        OVERALL_SUCCESS=true
+        
+        echo "=== Starting CI checks for RBAC validator ==="
+        # Ensure we're in the tools directory
+        if [[ ! -f "rbac-validator.go" ]]; then
+          echo "Error: rbac-validator.go not found in current directory"
+          echo "Current directory contents:"
+          ls -la
+          exit 1
+        fi
+        
+        # Create cache directories
+        mkdir -p /var/workdir/.cache/go-build /var/workdir/.cache/go-mod
+        
+        echo "=== Installing golangci-lint ==="
+        export PATH=$PATH:$(go env GOPATH)/bin
+        go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.2
+        
+        echo "=== Running format check ==="
+        if [ -n "$(gofmt -l .)" ]; then
+          echo "Code is not formatted. Files needing formatting:"
+          gofmt -l .
+          echo "FAIL: Code formatting check failed"
+          exit 1
+        fi
+        echo "PASS: Code formatting check"
+        
+        echo "=== Running golangci-lint ==="
+        export PATH=$PATH:$(go env GOPATH)/bin
+        if golangci-lint run --build-tags="" --max-issues-per-linter=0 --max-same-issues=0; then
+          echo "PASS: Linting check"
+        else
+          echo "FAIL: Linting check"
+          OVERALL_SUCCESS=false
+        fi
+        
+        echo "=== Building binary ==="
+        if go build -o rbac-validator rbac-validator.go; then
+          echo "PASS: Binary build"
+        else
+          echo "FAIL: Binary build"
+          OVERALL_SUCCESS=false
+        fi
+        
+        echo "=== Running tests ==="
+        if go test -v ./... | tee /var/workdir/test-output.txt; then
+          echo "PASS: All tests"
+        else
+          echo "FAIL: All tests"
+          OVERALL_SUCCESS=false
+        fi
+        
+        echo "=== Running testdata validation tests ==="
+        if go test -v -run "TestAllowedRoles|TestDeniedRoles|TestBinaryWithTestData|TestTestDataCompleteness"; then
+          echo "PASS: Testdata validation"
+        else
+          echo "FAIL: Testdata validation"
+          OVERALL_SUCCESS=false
+        fi
+        
+        
+        if [ "$OVERALL_SUCCESS" = "true" ]; then
+          echo "=== All CI checks completed successfully ==="
+        else
+          echo "=== CI checks completed with failures ==="
+          exit 1
+        fi
+      volumeMounts:
+        - mountPath: /var/workdir
+          name: workdir
+      # git clone is made as user 0, so we need to be this user too because
+      # the trusted artifacts are restored as this user as well.
+      securityContext:
+        runAsUser: 0

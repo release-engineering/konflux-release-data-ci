@@ -12,6 +12,7 @@ packages:
   - python3-pip
   - diffutils
   - krb5-devel
+  - golang
 
 arches:
   - x86_64

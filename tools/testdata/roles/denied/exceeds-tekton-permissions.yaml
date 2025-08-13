@@ -1,0 +1,13 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: exceeds-tekton-permissions
+  annotations:
+    description: "Exceeds admin tekton permissions - should be denied"
+rules:
+- apiGroups: ["tekton.dev"]
+  resources: ["pipelineruns", "taskruns"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]  # delete exceeds admin
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications"]
+  verbs: ["get", "list", "watch"]

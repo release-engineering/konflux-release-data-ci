@@ -1,0 +1,13 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: excessive-pod-permissions
+  annotations:
+    description: "Exceeds admin pod permissions - should be denied"
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]  # Admin only allows get/list/watch
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications"]
+  verbs: ["get", "list", "watch"]
