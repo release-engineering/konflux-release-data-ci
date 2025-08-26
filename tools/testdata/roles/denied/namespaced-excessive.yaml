@@ -1,0 +1,17 @@
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: namespaced-excessive
+  namespace: my-namespace
+  annotations:
+    description: "Namespaced role with excessive permissions - should be denied"
+rules:
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications", "components"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: ["tekton.dev"]
+  resources: ["pipelineruns"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]  # delete exceeds admin
+- apiGroups: ["custom.unauthorized.io"]  # Unauthorized APIGroup
+  resources: ["customresources"]
+  verbs: ["get", "list"]

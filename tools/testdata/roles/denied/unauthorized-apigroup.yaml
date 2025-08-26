@@ -1,0 +1,13 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: unauthorized-apigroup
+  annotations:
+    description: "Accesses APIGroup not in admin permissions - should be denied"
+rules:
+- apiGroups: ["custom.unauthorized.io"]
+  resources: ["customresources"]
+  verbs: ["get", "list"]
+- apiGroups: ["appstudio.redhat.com"]
+  resources: ["applications"]
+  verbs: ["get", "list", "watch"]
