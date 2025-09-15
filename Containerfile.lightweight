@@ -1,0 +1,32 @@
+FROM quay.io/konflux-ci/yq@sha256:7ef2e2f76ca36bdc7eb9203df31f3bce546d1267b969d9bd2691094b88610dbb as yq
+FROM registry.redhat.io/openshift4/ose-cli-artifacts-rhel9:v4.17.0-202504091537.p0.g0000b3e.assembly.stream.el9 as oc
+
+FROM registry.access.redhat.com/ubi9/ubi-minimal:latest@sha256:8f1496d50a66e41433031bf5bdedd4635520e692ccd76ffcb649cf9d30d669af
+
+COPY --from=yq /usr/bin/yq /usr/bin/yq
+COPY --from=oc /usr/bin/oc /usr/bin/oc
+
+# Install only essential shell tools (no Python, no build tools)
+# Note: UBI9 minimal already has curl-minimal, coreutils-single, bash, grep, sed
+RUN microdnf -y install \
+    git \
+    diffutils \
+    findutils \
+    gawk \
+    util-linux \
+    && microdnf clean all
+
+LABEL name="konflux-release-data-ci-lightweight" \
+    version="0.1" \
+    release="1" \
+    summary="Lightweight container for shell-based CI tasks" \
+    com.redhat.component="konflux-release-data-ci-lightweight" \
+    description="Minimal image with git, yq, oc, and essential shell tools for basic CI operations" \
+    distribution-scope="restricted" \
+    url="https://github.com/release-engineering/konflux-release-data-ci/tree/main" \
+    vendor="Red Hat, Inc." \
+    io.k8s.display-name="konflux-release-data-ci-lightweight" \
+    io.k8s.description="Lightweight container for shell-based CI tasks" \
+    io.openshift.tags="oci"
+
+ENTRYPOINT []
