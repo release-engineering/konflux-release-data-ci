@@ -53,13 +53,13 @@ arches:
     name: glibc-devel
     evr: 2.34-231.el9_7.10
     sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.38.1.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.41.1.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2982645
-    checksum: sha256:7ef7480570c8fa96e6f69aaa55bc5a79a668d8673ad610b705d2991bed6fc988
+    size: 2983373
+    checksum: sha256:1038cfa43ab3b4f6b7eff2c3e5ddd5d670911fef8d1f3fb06da3219d8286c23b
     name: kernel-headers
-    evr: 5.14.0-611.38.1.el9_7
-    sourcerpm: kernel-5.14.0-611.38.1.el9_7.src.rpm
+    evr: 5.14.0-611.41.1.el9_7
+    sourcerpm: kernel-5.14.0-611.41.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 66048
@@ -816,20 +816,6 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.1.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 33254
-    checksum: sha256:b0a5c7df41a0d5943242e92bcf1e6d11f9934afa3d7b2a4e357fc459f7b97676
-    name: python3
-    evr: 3.9.25-3.el9_7.1
-    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.1.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 8473829
-    checksum: sha256:f64cf789ff3f3fc687cfc347ff1741bb834be1556ecd461e07e524cb027e1d79
-    name: python3-libs
-    evr: 3.9.25-3.el9_7.1
-    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
   source:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/e/emacs-27.2-18.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
@@ -1274,13 +1260,13 @@ arches:
     name: glibc-headers
     evr: 2.34-231.el9_7.10
     sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.38.1.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.41.1.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3021673
-    checksum: sha256:d29c0b46854ac992dc8af47bb2e197c78564cf342bfe89b5c657bbb594b1f4eb
+    size: 3022401
+    checksum: sha256:bcaa0e68129def3ec17dfb112f33af36dc863df47bb89b137f3d57e980012b62
     name: kernel-headers
-    evr: 5.14.0-611.38.1.el9_7
-    sourcerpm: kernel-5.14.0-611.38.1.el9_7.src.rpm
+    evr: 5.14.0-611.41.1.el9_7
+    sourcerpm: kernel-5.14.0-611.41.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66082
@@ -2023,20 +2009,6 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.1.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 33297
-    checksum: sha256:d21de06ad0b98cdc04021a37330071758a71fb712a808f82e4ae715727f5f639
-    name: python3
-    evr: 3.9.25-3.el9_7.1
-    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.1.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 8484329
-    checksum: sha256:c371182b9b33f245737e82ffef539f9fbd9adc0a0f1c7fab0fda24459e4e4695
-    name: python3-libs
-    evr: 3.9.25-3.el9_7.1
-    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
   source:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/e/emacs-27.2-18.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
