@@ -1,4 +1,4 @@
-FROM quay.io/konflux-ci/yq@sha256:0aabca8d3b8a634a246e084c0d9b8762bf5cce0d592bc016f6aff5a37220eff2 as yq
+FROM quay.io/konflux-ci/yq@sha256:f89dc33e79bc802d67bc983459d4a0e4cf84f8b178faa690dccc9236615e48f0 as yq
 FROM registry.redhat.io/openshift4/ose-cli-artifacts-rhel9:v4.17.0-202504091537.p0.g0000b3e.assembly.stream.el9 as oc
 
 FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:6ed9f6f637fe731d93ec60c065dbced79273f1e0b5f512951f2c0b0baedb16ad
