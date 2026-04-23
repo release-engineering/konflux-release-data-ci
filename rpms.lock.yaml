@@ -816,6 +816,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/codeready-builder/os/Packages/l/libyaml-devel-0.2.5-7.el9.aarch64.rpm
+    repoid: codeready-builder-for-ubi-9-aarch64-rpms
+    size: 169143
+    checksum: sha256:5192d6b8fd2177f9d5084eaf2228181aacb0e27547c163fc5d337b8334f41869
+    name: libyaml-devel
+    evr: 0.2.5-7.el9
+    sourcerpm: libyaml-0.2.5-7.el9.src.rpm
   source:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/e/emacs-27.2-18.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
@@ -1159,6 +1166,12 @@ arches:
     checksum: sha256:d18f72eb41ecd0370e2e47f1dc5774be54e9ff3b4dd333578017666c7c488f40
     name: libxcrypt
     evr: 4.4.18-3.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/l/libyaml-0.2.5-7.el9.src.rpm
+    repoid: ubi-9-for-aarch64-baseos-source-rpms
+    size: 621472
+    checksum: sha256:830aaade07c562737ce786fb13e38d32b02398af78bee58029f21e7effbee9d3
+    name: libyaml
+    evr: 0.2.5-7.el9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/m/make-4.3-8.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 2335546
@@ -2009,6 +2022,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/codeready-builder/os/Packages/l/libyaml-devel-0.2.5-7.el9.x86_64.rpm
+    repoid: codeready-builder-for-ubi-9-x86_64-rpms
+    size: 169208
+    checksum: sha256:a0c6ff3f790523cada01d63a66de8439e466b895369f45a1c17e07a917518a58
+    name: libyaml-devel
+    evr: 0.2.5-7.el9
+    sourcerpm: libyaml-0.2.5-7.el9.src.rpm
   source:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/e/emacs-27.2-18.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
@@ -2352,6 +2372,12 @@ arches:
     checksum: sha256:d18f72eb41ecd0370e2e47f1dc5774be54e9ff3b4dd333578017666c7c488f40
     name: libxcrypt
     evr: 4.4.18-3.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/l/libyaml-0.2.5-7.el9.src.rpm
+    repoid: ubi-9-for-x86_64-baseos-source-rpms
+    size: 621472
+    checksum: sha256:830aaade07c562737ce786fb13e38d32b02398af78bee58029f21e7effbee9d3
+    name: libyaml
+    evr: 0.2.5-7.el9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/m/make-4.3-8.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 2335546
