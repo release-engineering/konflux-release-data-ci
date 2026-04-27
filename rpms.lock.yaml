@@ -67,13 +67,13 @@ arches:
     name: keyutils-libs-devel
     evr: 1.6.3-1.el9
     sourcerpm: keyutils-1.6.3-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/krb5-devel-1.21.1-8.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/krb5-devel-1.21.1-9.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 146410
-    checksum: sha256:23067a782cafaca08827f02fb0f0eaf5e41dc5d64b9423adc1d1d62867693aba
+    size: 152616
+    checksum: sha256:7fea0d4e9f11c655f213a87574ce8d187aff3aac394cbd39b51b539899ee571f
     name: krb5-devel
-    evr: 1.21.1-8.el9_6
-    sourcerpm: krb5-1.21.1-8.el9_6.src.rpm
+    evr: 1.21.1-9.el9_7
+    sourcerpm: krb5-1.21.1-9.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libasan-11.5.0-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 408716
@@ -718,6 +718,13 @@ arches:
     name: groff-base
     evr: 1.22.4-10.el9
     sourcerpm: groff-1.22.4-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/k/krb5-libs-1.21.1-9.el9_7.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 793456
+    checksum: sha256:ddd56a2ab7609568d273dae5956e680f8fca41a8314c13def2b9149948d601c4
+    name: krb5-libs
+    evr: 1.21.1-9.el9_7
+    sourcerpm: krb5-1.21.1-9.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/less-590-6.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 165028
@@ -753,13 +760,13 @@ arches:
     name: libfido2
     evr: 1.13.0-2.el9
     sourcerpm: libfido2-1.13.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libkadm5-1.21.1-8.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libkadm5-1.21.1-9.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 78100
-    checksum: sha256:621d0a8d3ed1befbe4a72f5c9dc9ada1614f1cedb8f1667d3a4a1a46dab6b8d6
+    size: 82091
+    checksum: sha256:13887e205c8d47a293853057bdf81d66a48b9fd17d6045b3973091c1edbe1517
     name: libkadm5
-    evr: 1.21.1-8.el9_6
-    sourcerpm: krb5-1.21.1-8.el9_6.src.rpm
+    evr: 1.21.1-9.el9_7
+    sourcerpm: krb5-1.21.1-9.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 38310
@@ -1105,12 +1112,12 @@ arches:
     checksum: sha256:6afa567438acd0d3a6a66bc6a3c68ec2f4ae5ed9c7230c3f0478d2281a092688
     name: keyutils
     evr: 1.6.3-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/k/krb5-1.21.1-8.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/k/krb5-1.21.1-9.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 8943205
-    checksum: sha256:23c749362fb5f9a342900022b42457009a56333aa423ee68de460b7f13ceb6a9
+    size: 8950679
+    checksum: sha256:060d98c68b453970fcb516ba38eb5b797e6f4e20e173e3b237c2ca36cc23a411
     name: krb5
-    evr: 1.21.1-8.el9_6
+    evr: 1.21.1-9.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/l/less-590-6.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 382338
@@ -1274,13 +1281,13 @@ arches:
     name: keyutils-libs-devel
     evr: 1.6.3-1.el9
     sourcerpm: keyutils-1.6.3-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/krb5-devel-1.21.1-8.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/krb5-devel-1.21.1-9.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 146441
-    checksum: sha256:ae34ec0322153877cdb00ed98746a882d18d1f7861dac11c07130ebe57605541
+    size: 152666
+    checksum: sha256:666833496a1bf816848812e2679a0c7000d7ce96b754ab6b04bfd4a63ed05943
     name: krb5-devel
-    evr: 1.21.1-8.el9_6
-    sourcerpm: krb5-1.21.1-8.el9_6.src.rpm
+    evr: 1.21.1-9.el9_7
+    sourcerpm: krb5-1.21.1-9.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libcom_err-devel-1.46.5-8.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 16789
@@ -1918,6 +1925,13 @@ arches:
     name: groff-base
     evr: 1.22.4-10.el9
     sourcerpm: groff-1.22.4-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/k/krb5-libs-1.21.1-9.el9_7.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 790457
+    checksum: sha256:ed93cda537e6778606b009b12d10c7fb06a1ed3caee74cf2c9a4b4808e569b4a
+    name: krb5-libs
+    evr: 1.21.1-9.el9_7
+    sourcerpm: krb5-1.21.1-9.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/less-590-6.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 166025
@@ -1946,13 +1960,13 @@ arches:
     name: libfido2
     evr: 1.13.0-2.el9
     sourcerpm: libfido2-1.13.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libkadm5-1.21.1-8.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libkadm5-1.21.1-9.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 78246
-    checksum: sha256:2f8397fbad600e0bf4888fe64d22cb0101574d2e5e522eac127e224422bb3c14
+    size: 83334
+    checksum: sha256:bb869e3e53cc34cb0f9ac06ed4e2c3d86c9a857c082f0fda6ab995aee62ea201
     name: libkadm5
-    evr: 1.21.1-8.el9_6
-    sourcerpm: krb5-1.21.1-8.el9_6.src.rpm
+    evr: 1.21.1-9.el9_7
+    sourcerpm: krb5-1.21.1-9.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 38387
@@ -2298,12 +2312,12 @@ arches:
     checksum: sha256:6afa567438acd0d3a6a66bc6a3c68ec2f4ae5ed9c7230c3f0478d2281a092688
     name: keyutils
     evr: 1.6.3-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/k/krb5-1.21.1-8.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/k/krb5-1.21.1-9.el9_7.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 8943205
-    checksum: sha256:23c749362fb5f9a342900022b42457009a56333aa423ee68de460b7f13ceb6a9
+    size: 8950679
+    checksum: sha256:060d98c68b453970fcb516ba38eb5b797e6f4e20e173e3b237c2ca36cc23a411
     name: krb5
-    evr: 1.21.1-8.el9_6
+    evr: 1.21.1-9.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/l/less-590-6.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 382338
