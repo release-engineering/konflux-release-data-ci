@@ -14,6 +14,7 @@ RUN dnf -y install git \
     python3-pip \
     diffutils \
     krb5-devel \
+    libyaml-devel \
     && dnf clean all
 
 COPY requirements.txt ./
