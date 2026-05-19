@@ -613,76 +613,76 @@ arches:
     name: python3-pip
     evr: 21.3.1-1.el9
     sourcerpm: python-pip-21.3.1-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/ruby-3.0.7-165.el9_5.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/ruby-3.0.7-166.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 39988
-    checksum: sha256:1b9a250759d6e3e1d54b234bd1b286ac9e60d6a638f3e316c235d42e00340515
+    size: 44934
+    checksum: sha256:86b69364a5ade80420d62ce50feaed1f5f16dfe1c9a517c78fc8bcf2b7e9c92f
     name: ruby
-    evr: 3.0.7-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/ruby-default-gems-3.0.7-165.el9_5.noarch.rpm
+    evr: 3.0.7-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/ruby-default-gems-3.0.7-166.el9_7.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 43707
-    checksum: sha256:87980d39f679983122cfa4dfc385a10623d07471af660146eb03efaff522acf6
+    size: 50066
+    checksum: sha256:0572f593d8335d19af1ab8f63195e48014961cdbbe263b22895ccf24e55a2713
     name: ruby-default-gems
-    evr: 3.0.7-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/ruby-libs-3.0.7-165.el9_5.aarch64.rpm
+    evr: 3.0.7-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/ruby-libs-3.0.7-166.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 3414553
-    checksum: sha256:0f68e72ee58afa51b0d3d7f059c27a7fa1c74077a3587ed0bdb5a04ca62f30e5
+    size: 3406217
+    checksum: sha256:4753a299b5d7bd1a95bfbae3773c50547bc6c313837222fc203c3c85118a9473
     name: ruby-libs
-    evr: 3.0.7-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-bigdecimal-3.0.0-165.el9_5.aarch64.rpm
+    evr: 3.0.7-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-bigdecimal-3.0.0-166.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 53615
-    checksum: sha256:75a844319d55d48482d467262827f573a70d8d380d624eb7b2cac4e7b78bfaa1
+    size: 59988
+    checksum: sha256:6d5fc674e94a8f4a4537a9a3042e6708ed4acf82346ea99eab63545867ff8876
     name: rubygem-bigdecimal
-    evr: 3.0.0-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-bundler-2.2.33-165.el9_5.noarch.rpm
+    evr: 3.0.0-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-bundler-2.2.33-166.el9_7.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 463714
-    checksum: sha256:40a31a95f07540da676a46f96cdf03bb1f16bbc3b50a809cf0c1036dccff5fd9
+    size: 469921
+    checksum: sha256:e4604bf03e73d3373a0556282106f8581a0a2487dc45fd4e2496df35480b8ec5
     name: rubygem-bundler
-    evr: 2.2.33-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-io-console-0.5.7-165.el9_5.aarch64.rpm
+    evr: 2.2.33-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-io-console-0.5.7-166.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 23769
-    checksum: sha256:ec6e8a35eed8c639e6a4952ceb9e9df3d4184f2d5059da4dd7943b1a005c3f6f
+    size: 28888
+    checksum: sha256:369f3aace4c625d90d2a9a087b2c25d0deeade0f680e6e1a0878288d0711e644
     name: rubygem-io-console
-    evr: 0.5.7-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-json-2.5.1-165.el9_5.aarch64.rpm
+    evr: 0.5.7-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-json-2.5.1-166.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 56695
-    checksum: sha256:28548b66c5a05931541c07350ed7fea44a47474a3755fc6590fec56eed84ab59
+    size: 62424
+    checksum: sha256:c9bab5ae15aa33c6954f79adce3f8af52cddc3bbabd8d679b4a1486d59271db4
     name: rubygem-json
-    evr: 2.5.1-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-psych-3.3.2-165.el9_5.aarch64.rpm
+    evr: 2.5.1-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-psych-3.3.2-166.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 57944
-    checksum: sha256:f001209c79aa6288fd73f6f2ad729c0ca4236cd8f6f5c6fca5ebde2f1b479055
+    size: 63835
+    checksum: sha256:1c21e371fc78cb59d2494c79f8b3cc3d75d29ed5f617f6342324a2e47dc954fc
     name: rubygem-psych
-    evr: 3.3.2-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-rdoc-6.3.4.1-165.el9_5.noarch.rpm
+    evr: 3.3.2-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygem-rdoc-6.3.4.1-166.el9_7.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 447643
-    checksum: sha256:e10f7a41570c647f3fdfff59cf160036e80e48fc027a92dd624e37a31fda5766
+    size: 455307
+    checksum: sha256:642491826226835ddb8da9930bcc369d28cd0dd8ed119ef974e3c37437dac14e
     name: rubygem-rdoc
-    evr: 6.3.4.1-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygems-3.2.33-165.el9_5.noarch.rpm
+    evr: 6.3.4.1-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rubygems-3.2.33-166.el9_7.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 310195
-    checksum: sha256:03ae5e148b2be4c5a0fac3cb3cbfe3895f56cf67aa9212f6f28665589caf10e6
+    size: 316432
+    checksum: sha256:42ff4b2d0c5283abd2c86d8691bdbb68370b81e6cc30bc50747ceb3bb8cd1ecf
     name: rubygems
-    evr: 3.2.33-165.el9_5
-    sourcerpm: ruby-3.0.7-165.el9_5.src.rpm
+    evr: 3.2.33-166.el9_7
+    sourcerpm: ruby-3.0.7-166.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/b/binutils-2.35.2-67.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 5017674
@@ -1051,12 +1051,12 @@ arches:
     checksum: sha256:71e7c3e0eb8d62e314cf45b89d5be318ddb507399a96018079dd5fffe2b18de9
     name: perl-podlators
     evr: 1:4.14-460.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/r/ruby-3.0.7-165.el9_5.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/r/ruby-3.0.7-166.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 16063173
-    checksum: sha256:9ab1892e5417dd849a747e727eb8a3a05ab0e6a6fe7fa99f6ab5784b58d1adef
+    size: 16073619
+    checksum: sha256:bb74b4f0822b4049bbc61fe7dca1a8721821534ef8a01418e2a85503e170ade6
     name: ruby
-    evr: 3.0.7-165.el9_5
+    evr: 3.0.7-166.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/b/binutils-2.35.2-67.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 22467636
