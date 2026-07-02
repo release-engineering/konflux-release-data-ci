@@ -1,12 +1,14 @@
 FROM quay.io/konflux-ci/yq@sha256:06518dab2bb28223e141c982c71353e2609d70fe17f6151cb885563602fafda5 as yq
-FROM registry.redhat.io/openshift4/ose-cli-artifacts-rhel9:v4.17.0-202504091537.p0.g0000b3e.assembly.stream.el9 as oc
-FROM registry.k8s.io/kustomize/kustomize:v5.7.1 as kustomize
 
 FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:0879eaf704bf508379bdb0f465b8ea184c1ec9f1f40a413422fc17f6d3fb2389
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
-COPY --from=oc /usr/bin/oc /usr/bin/oc
-COPY --from=kustomize /app/kustomize /usr/bin/kustomize
+
+RUN ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/') && \
+    curl -sL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.7.1/kustomize_v5.7.1_linux_${ARCH}.tar.gz" \
+    | tar -xz -C /usr/bin kustomize && \
+    curl -sL "https://mirror.openshift.com/pub/openshift-v4/${ARCH}/clients/ocp/stable/openshift-client-linux.tar.gz" \
+    | tar -xz -C /usr/bin oc kubectl
 
 RUN dnf -y install git \
     ruby \
