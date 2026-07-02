@@ -32,7 +32,7 @@ spec:
   - name: path-context
     value: .
   - name: prefetch-input
-    value: '{"packages": [{"type": "pip", "path": ".", "binary": {"packages": "ruff"}}, {"type": "rpm", "path": "."}]}'
+    value: '{"packages": [{"type": "rpm", "path": "."}]}'
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
