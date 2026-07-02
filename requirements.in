@@ -44,4 +44,5 @@ tomli
 trove_classifiers
 typing-extensions
 wheel
+setuptools>=64.0
 setuptools_scm<8.0
