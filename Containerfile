@@ -4,6 +4,11 @@ FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:0879eaf704bf508379bdb0f46
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 
+RUN curl -sL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.7.1/kustomize_v5.7.1_linux_amd64.tar.gz" \
+    | tar -xz -C /usr/bin kustomize && \
+    curl -sL "https://mirror.openshift.com/pub/openshift-v4/amd64/clients/ocp/stable/openshift-client-linux.tar.gz" \
+    | tar -xz -C /usr/bin oc kubectl
+
 RUN dnf -y install git \
     ruby \
     gcc \
