@@ -16,7 +16,7 @@ RUN dnf -y install git \
     krb5-devel \
     && dnf clean all
 
-COPY COPYING /licenses
+COPY COPYING /licenses/
 COPY requirements.txt ./
 
 RUN pip3 install -r requirements.txt
