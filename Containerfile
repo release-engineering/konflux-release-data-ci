@@ -1,7 +1,7 @@
 FROM quay.io/konflux-ci/yq@sha256:06518dab2bb28223e141c982c71353e2609d70fe17f6151cb885563602fafda5 as yq
 FROM registry.redhat.io/openshift4/ose-cli-artifacts-rhel9:v4.17.0-202504091537.p0.g0000b3e.assembly.stream.el9 as oc
 
-FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:0879eaf704bf508379bdb0f465b8ea184c1ec9f1f40a413422fc17f6d3fb2389
+FROM registry.access.redhat.com/ubi10/ubi:latest@sha256:ab7e7c852eaa79e80ebb201553da6b1428aff469d0f5d4877b0ffa64879fe2b2
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
 COPY --from=oc /usr/bin/oc /usr/bin/oc
@@ -16,9 +16,11 @@ RUN dnf -y install git \
     krb5-devel \
     && dnf clean all
 
+COPY COPYING /licenses
 COPY requirements.txt ./
 
 RUN pip3 install -r requirements.txt
+USER 1001
 
 
 # Because Cachi2 doesn't support ruby, we've got to gem install it for now
