@@ -12,6 +12,7 @@ packages:
   - python3-pip
   - diffutils
   - krb5-devel
+  - libyaml-devel
 
 arches:
   - x86_64
