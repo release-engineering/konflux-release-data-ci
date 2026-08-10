@@ -327,7 +327,7 @@ jinja2==3.1.4 \
     #   mkdocs
     #   mkdocs-material
     #   mkdocstrings
-Markdown==3.8 \
+markdown==3.8 \
     --hash=sha256:794a929b79c5af141ef5ab0f2f642d0f7b1872981250230e72682346f7cc90dc \
     --hash=sha256:7df81e63f0df5c4b24b7d156eb81e4690595239b7d70937d0409f1b0de319c6f
     # via
@@ -526,7 +526,7 @@ pyflakes==3.3.2 \
     --hash=sha256:5039c8339cbb1944045f4ee5466908906180f13cc99cc9949348d10f82a5c32a \
     --hash=sha256:6dfd61d87b97fba5dcfaaf781171ac16be16453be6d816147989e7f6e6a9576b
     # via flake8
-Pygments==2.19.1 \
+pygments==2.19.1 \
     --hash=sha256:61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f \
     --hash=sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c
     # via mkdocs-material
@@ -841,7 +841,7 @@ trove-classifiers==2025.3.19.19 \
     # via
     #   -r requirements.in
     #   hatchling
-types-PyYAML==6.0.12.20250402 \
+types-pyyaml==6.0.12.20250402 \
     --hash=sha256:652348fa9e7a203d4b0d21066dfb00760d3cbd5a15ebb7cf8d33c88a49546681 \
     --hash=sha256:d7c13c3e6d335b6af4b0122a01ff1d270aba84ab96d1a1a1063ecba3e13ec075
     # via -r requirements.in
@@ -855,6 +855,10 @@ urllib3==2.2.3 \
     --hash=sha256:ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac \
     --hash=sha256:e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9
     # via requests
+vale==3.12.0.0 \
+    --hash=sha256:26bf05326e8fbc878edb782fc9ecee87b826395ba00c066d91ef87a4ed6a6fed \
+    --hash=sha256:bb5f0907bfdbb61e3a11097d4e2b771b2796be2c4af94a45b09f74db39c50d30
+    # via -r requirements.in
 virtualenv==20.30.0 \
     --hash=sha256:800863162bcaa5450a6e4d721049730e7f2dae07720e0902b0e4040bd6f9ada8 \
     --hash=sha256:e34302959180fca3af42d1800df014b35019490b119eba981af27f2fa486e5d6
