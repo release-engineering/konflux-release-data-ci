@@ -46,13 +46,13 @@ arches:
     name: glibc-devel
     evr: 2.34-275.el9_8
     sourcerpm: glibc-2.34-275.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.44.1.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.45.1.el9_8.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2878589
-    checksum: sha256:87eed21015538c9fade652055715872c8a1d7fc5d38df349a3c44e6f27530804
+    size: 2879929
+    checksum: sha256:62e7fb8318b2c8d630c67139f09325dbc2bed069ff0b80c0b279396aa85ed1f1
     name: kernel-headers
-    evr: 5.14.0-687.44.1.el9_8
-    sourcerpm: kernel-5.14.0-687.44.1.el9_8.src.rpm
+    evr: 5.14.0-687.45.1.el9_8
+    sourcerpm: kernel-5.14.0-687.45.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 66048
@@ -1247,13 +1247,13 @@ arches:
     name: glibc-headers
     evr: 2.34-275.el9_8
     sourcerpm: glibc-2.34-275.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.44.1.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.45.1.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2917773
-    checksum: sha256:e97b12ed737d41e2e34db2d3f3659a5f250ef940fcc9c4dd97235009c8706e7f
+    size: 2919193
+    checksum: sha256:73240f2b54765a2e2cd551a836d927acc78fa4f882a7d3a924e65c8177e7e97a
     name: kernel-headers
-    evr: 5.14.0-687.44.1.el9_8
-    sourcerpm: kernel-5.14.0-687.44.1.el9_8.src.rpm
+    evr: 5.14.0-687.45.1.el9_8
+    sourcerpm: kernel-5.14.0-687.45.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66082
