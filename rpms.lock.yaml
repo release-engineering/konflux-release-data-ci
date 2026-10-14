@@ -1289,13 +1289,13 @@ arches:
     name: glibc-headers
     evr: 2.34-283.el9_8
     sourcerpm: glibc-2.34-283.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.56.1.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.57.1.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2977605
-    checksum: sha256:a797333dff8ff3d82f6e38107e7d9fbf78b60cd8a4d3c2582baaad91309a405c
+    size: 2979225
+    checksum: sha256:c5766b2f8e4531f824575546028de7d8eb9fa95d7246dfafd4883c58312a2ef2
     name: kernel-headers
-    evr: 5.14.0-687.56.1.el9_8
-    sourcerpm: kernel-5.14.0-687.56.1.el9_8.src.rpm
+    evr: 5.14.0-687.57.1.el9_8
+    sourcerpm: kernel-5.14.0-687.57.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66082
@@ -1359,27 +1359,27 @@ arches:
     name: libxcrypt-devel
     evr: 4.4.18-3.el9
     sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/pcre2-devel-10.40-6.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/pcre2-devel-10.40-7.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 528624
-    checksum: sha256:f2fa0c49019f12b9c01986c1d05ffc83863ac7b47b8e348d6357e7fbdf3b17e3
+    size: 530728
+    checksum: sha256:2d364f3ae081abc335f60508227ae8af0ce61d22035051ec811cb06f12f5b1b3
     name: pcre2-devel
-    evr: 10.40-6.el9
-    sourcerpm: pcre2-10.40-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/pcre2-utf16-10.40-6.el9.x86_64.rpm
+    evr: 10.40-7.el9_8
+    sourcerpm: pcre2-10.40-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/pcre2-utf16-10.40-7.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 220256
-    checksum: sha256:935664188bce50473e3c148fc9d71167d3881fc2de9ccc99394c03d00e8ff5b3
+    size: 224219
+    checksum: sha256:55df20fc3c277a31256871a581a267647686d76c694f223b531ac295cdca3665
     name: pcre2-utf16
-    evr: 10.40-6.el9
-    sourcerpm: pcre2-10.40-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/pcre2-utf32-10.40-6.el9.x86_64.rpm
+    evr: 10.40-7.el9_8
+    sourcerpm: pcre2-10.40-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/pcre2-utf32-10.40-7.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 209174
-    checksum: sha256:d50fc56a1e9710b3374826c82044d4624b6c5949db0178d5774f575a5fcd6934
+    size: 213233
+    checksum: sha256:be9a7393cb23b49b0f8e7df3146b03ea978f4d1e18e379f195064382666f9f52
     name: pcre2-utf32
-    evr: 10.40-6.el9
-    sourcerpm: pcre2-10.40-6.el9.src.rpm
+    evr: 10.40-7.el9_8
+    sourcerpm: pcre2-10.40-7.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-AutoLoader-5.74-484.el9_8.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 26763
@@ -2038,6 +2038,20 @@ arches:
     name: openssh-clients
     evr: 9.9p1-12.el9_8
     sourcerpm: openssh-9.9p1-12.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/pcre2-10.40-7.el9_8.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 244785
+    checksum: sha256:ef2c65a463e1ef1bfbf3d9ee66986e14cca0fbae88343f099dd5b16619276f1f
+    name: pcre2
+    evr: 10.40-7.el9_8
+    sourcerpm: pcre2-10.40-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/pcre2-syntax-10.40-7.el9_8.noarch.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 150069
+    checksum: sha256:e7466a43ef2bfda2b1dc07e855b0db743d48b11c0bdc1402e1d2ea6fb23d33a3
+    name: pcre2-syntax
+    evr: 10.40-7.el9_8
+    sourcerpm: pcre2-10.40-7.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 45675
@@ -2428,12 +2442,12 @@ arches:
     checksum: sha256:c413b36f12fe7218dafdd3fbbc73b7c5ee4bbf1f338f7d21de22b71b3ca5e9ae
     name: openssh
     evr: 9.9p1-12.el9_8
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/p/pcre2-10.40-6.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/p/pcre2-10.40-7.el9_8.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 1789790
-    checksum: sha256:a570f7192be555222aa3704882b9199fb013a84ad4d7dcf40a93d8de2ecf6e0a
+    size: 1805958
+    checksum: sha256:43c40093332890a77f7d7c573a1b540867319bbcaaec5a6dfd73101765dc6ea0
     name: pcre2
-    evr: 10.40-6.el9
+    evr: 10.40-7.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 310904
